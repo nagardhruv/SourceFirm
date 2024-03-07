@@ -8,15 +8,13 @@ import AdminLayout from "layouts/Admin.js";
 import Login from "views/Authentication/Login/Login";
 import ForgetPassword from "views/Authentication/ForgotPassword/ForgetPassword";
 import SignUp from "views/Authentication/SignUp/SignUp";
-
 import { PersistGate } from 'redux-persist/integration/react';
 import "./assets/css/custom.css";
 import { isLogIn } from 'utils/Auth';
 import Home from "views/Home";
 import PageNotFound from "views/PageNotFound";
-
 import ScrollToTop from "ScrollToTop";
-import EmailVerification from "views/Authentication/EmailVerification/EmailVerification";
+import EmailVerification from "views/Authentication/EmailVerification/index";
 import CheckMail from "views/Authentication/CheckMail";
 import ResetPassword from "views/Authentication/ResetPassword/ResetPassword";
 import VerifyEmail from "views/Authentication/VerifyEmail/VerifyEmail";

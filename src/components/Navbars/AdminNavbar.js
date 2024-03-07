@@ -35,21 +35,13 @@ function Header() {
     const isLoggedIn = getToken();
     const dispatch = useDispatch();
     const userDetails = useSelector(state => state?.authReducer?.userDetails);
-    const chatCount = useSelector(state => state?.chatReducer?.chatCount);
     const connection = useSelector(state => state.socketReducer?.connection);
     // const userStatuses = useSelector(state => state.commonReducer?.userStatuses);
     const [anchorElNav, setAnchorElNav] = useState(null);
     const [anchorElUser, setAnchorElUser] = useState(null);
     const [open, setOpen] = useState(false);
     const [openDialog, setOpenDialog] = useState(false);
-    const [agencyRequestDialog, setAgencyRequestDialog] = useState(false);
-    const [notificationOpen, setNotificationOpen] = useState(false);
-    const [anchorEl, setAnchorEl] = useState(null);
     const [processing, setProcessing] = useState(false);
-    const [notificationDialogueData, setNotificationDialogueData] = useState({
-        title: "New Agency Request Sent",
-        message: "The new agency request has been sent successfully please wait for the administration approval."
-    });
     const path = window.location.pathname;
     const isMobileView = (window.innerWidth <= 899);
     const VIEWS = {
@@ -63,18 +55,9 @@ function Header() {
 
     const pages = [
         // { name: 'Dashboard', path: '/user-dashboard', view: 2, access: [USER_TYPES.CLIENT], checkUserColumn: 'is_new_registered' },
-        { name: 'About us', path: '/about-us', view: 3, access: Object.values(USER_TYPES), checkUserColumn: '' },
-        { name: 'Blog', path: '/blog', href: process.env.REACT_APP_BASE_URL + '/blog', view: 3, access: Object.values(USER_TYPES), checkUserColumn: '' },
-        { name: 'Manage Developers', path: '/manage-developers', view: 2, access: [USER_TYPES.AGENCY], checkUserColumn: 'is_new_registered' },
+       
         { name: 'Sign up', path: '/signup', view: 4, access: '', checkUserColumn: '' },
-        // { name: 'Find developers', path: '/find-developers', view: 1, access: [USER_TYPES], checkUserColumn: '' },
-        // { name: 'Find jobs', path: '/find-jobs', view: 1, access: [USER_TYPES.AGENCY], checkUserColumn: '' },
-        // { name: 'Blogs', path: '/blogs', view: 1, access: [USER_TYPES.AGENCY], checkUserColumn: '' },
-        { name: 'Manage Job Posts', path: '/manage-job-posts', view: 2, access: [USER_TYPES.CLIENT], checkUserColumn: 'is_new_registered' },
-        { name: 'My Requests', path: '/my-requests', view: 2, access: [USER_TYPES.CLIENT, USER_TYPES.FREELANCER], checkUserColumn: 'is_new_registered' },
-        { name: 'My Proposals', path: '/my-proposals', view: 2, access: [USER_TYPES.CLIENT, USER_TYPES.FREELANCER], checkUserColumn: 'is_new_registered' },
-        { name: 'Requests', path: '/requests', view: 2, access: [USER_TYPES.AGENCY], checkUserColumn: 'is_new_registered' },
-        { name: 'Proposals', path: '/proposals', view: 2, access: [USER_TYPES.AGENCY], checkUserColumn: 'is_new_registered' },
+        
     ];
 
     const handleOpenNavMenu = (event) => {
@@ -123,10 +106,7 @@ function Header() {
     const handleCloseUserMenu = () => {
         setAnchorElUser(null);
     };
-    const handleOpenDialog = () => {
-        handleCloseUserMenu();
-        setOpenDialog(true);
-    };
+
     const handleCloseDialog = () => {
         setOpenDialog(false);
     };
@@ -146,13 +126,7 @@ function Header() {
             window.location.reload();
         }).catch((e) => { toast.error("Something went wrong" + e.message) });
     }
-    const getProfile = () => {
-        setAnchorElUser(null);
-        if (isLoggedIn)
-            history.push((userDetails && userDetails?.is_new_registered && (!userDetails?.is_profile_in_review)) ? '/my-profile/add' : '/my-profile');
-        else
-            history.push('/login');
-    }
+    
     const handleOpenLogoutDialog = () => {
         setAnchorElUser(null);
         setOpen(true);
@@ -168,47 +142,7 @@ function Header() {
             history.push(url);
         }
     };
-    const menusLinks = (links) => {
-        return links.map((page, index) => {
-            let activeClass = (path === page.path) ? "active" : "";
-            switch (page.view) {
-                case VIEWS.AFTER_LOGIN:
-                    if (!page?.access?.includes(userDetails?.user_type) || userDetails?.[page?.checkUserColumn]) {
-                        return null;
-                    } else {
-                        return <Link
-                            key={index}
-                            onClick={() => handleHomePage(page.path, page?.href)}
-                            sx={{ my: 2, color: '#fff', display: 'block' }}
-                            className={`header_menu ${activeClass}`}
-                        >
-                            {page.name}
-                        </Link>
-                    }
-                case VIEWS.BEFORE_LOGIN:
-                    if (!isLoggedIn) {
-                        return <Link
-                            key={index}
-                            onClick={() => handleHomePage(page.path, page?.href)}
-                            sx={{ my: 2, color: '#fff', display: 'block' }}
-                            className={`header_menu ${activeClass}`}
-                        >
-                            {page.name}
-                        </Link>
-                    }
-                    break;
-                case VIEWS.ALL:
-                    return <Link
-                        key={index}
-                        onClick={() => handleHomePage(page.path, page?.href)}
-                        sx={{ my: 2, color: '#fff', display: 'block' }}
-                        className={`header_menu ${activeClass}`}
-                    >
-                        {page.name}
-                    </Link>
-            }
-        });
-    }
+    
     const menuLinksResponsive = (pageList) => {
         return pageList.map((page, index) => {
             switch (page.view) {
@@ -241,33 +175,7 @@ function Header() {
             }
         });
     }
-    const handleAgencyRequestDialog = () => {
-        if (!userDetails?.can_request_new_agency) {
-            toast.error("Reached maximum limit for Agency request, please contact Admin ");
-            return false;
-        }
-        setAgencyRequestDialog(!agencyRequestDialog);
-    }
-    const handleAgencyRequestSubmit = (values) => {
-        try {
-            values.client = userDetails?.id;
-            dispatch(Actions.newAgencyRequest(values)).then(response => {
-                if (response.status === 201) {
-                    getUserDetails();
-                    toast.success('Agency requested successfully');
-                } else {
-                    Object.keys(response.data).forEach((error) => {
-                        toast.error(response.data[error][0]);
-                    })
-                }
-                handleAgencyRequestDialog();
-            }).catch(() => {
-                toast.error('Something went wrong...');
-            });
-        } catch (error) {
-            toast.error('Something went wrong...');
-        }
-    }
+    
     const getUserDetails = () => {
         dispatch(Actions.getUserDetails()).then(res => {
             if (res.status === 200) {
@@ -282,47 +190,6 @@ function Header() {
             dispatch({ type: 'USER_STATUSES', payload: null });
             dispatch({ type: 'GET_USER_DETAILS', payload: {} });
         })
-    }
-    const handleNotificationOpen = () => {
-        if (userDetails?.is_agency_pending_request) {
-            const ndData = {
-                ...notificationDialogueData,
-                title: 'Request has Already Been sent',
-                message: "The request for agency has already been sent, Please wait for the administration approval.",
-            };
-            setNotificationDialogueData(ndData);
-        }
-        else if (!userDetails?.can_request_new_agency) {
-            toast.error("Reached maximum limit for Agency request, please contact Admin ");
-            return false;
-        }
-        setNotificationOpen(!notificationOpen);
-    }
-    // const handleAgencyRequestStatus = () => {
-    //     dispatch(Actions.getUserDetails()).then(res => {
-    //         if (res.status === 200) {
-    //             dispatch({ type: 'GET_USER_DETAILS', payload: res.data });
-    //             (res.data?.is_agency_pending_request) ? handleNotificationOpen() : handleAgencyRequestDialog();
-    //         }
-    //         else {
-    //             dispatch({ type: 'GET_USER_DETAILS', payload: {} });
-    //         }
-    //     }).catch(() => {
-    //         dispatch({ type: 'GET_USER_DETAILS', payload: {} });
-    //     })
-    // }
-
-    const handlePopoverOpen = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
-
-    const handlePopoverClose = () => {
-        setAnchorEl(null);
-    };
-
-    const menuRedirection = (value) => {
-        history.push(`/how-it-works/${value}`);
-        setAnchorEl(null);
     }
 
     WebSocketService();
