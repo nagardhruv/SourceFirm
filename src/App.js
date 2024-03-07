@@ -16,6 +16,10 @@ import Home from "views/Home";
 import PageNotFound from "views/PageNotFound";
 
 import ScrollToTop from "ScrollToTop";
+import EmailVerification from "views/Authentication/EmailVerification/EmailVerification";
+import CheckMail from "views/Authentication/CheckMail";
+import ResetPassword from "views/Authentication/ResetPassword/ResetPassword";
+import VerifyEmail from "views/Authentication/VerifyEmail/VerifyEmail";
 
 function App() {
     const getRoute = (name) => {
@@ -35,6 +39,10 @@ function App() {
                         <Route exact path="/login" component={getRoute(Login)} />
                         <Route exact path="/forgetpassword" component={getRoute(ForgetPassword)} />
                         <Route exact path="/signup" component={getRoute(SignUp)} />
+                        <Route exact path="/email-verify" component={EmailVerification} />
+                        <Route exact path="/resendmail" component={getRoute(CheckMail)} />
+                        <Route exact path="/password-reset/:uid/:token" component={ResetPassword} />
+                        <Route exact path="/verify-email/:uid/:token" component={VerifyEmail} />
                         <Route exact path="/" component={Home} />
                         <Route exact path='/' render={() => <Redirect to='/home' />} />
                         <AdminLayout></AdminLayout>
