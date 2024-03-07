@@ -1,0 +1,49 @@
+.loader-wrapper {
+  width: 70px;
+  height: 70px;
+}
+
+.loader {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 10px solid #548CA8;
+  border-top-color: #7E5EED;
+  border-left-color: #44EC9D;
+  /* border-right-color:#FFDC2D ; */
+  border-bottom-color: #FF5E7B;
+  border-radius: 50%;
+  animation: rotate 5s linear infinite;
+}
+
+.loader-inner {
+  border-top-color: #44EC9D;
+  border-bottom-color: #FFDC2D;
+  animation-duration: 2.5s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: scale(1) rotate(360deg);
+  }
+
+  50% {
+    transform: scale(.8) rotate(-360deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

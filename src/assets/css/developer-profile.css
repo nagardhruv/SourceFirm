@@ -1,0 +1,269 @@
+.developer_profile-section{
+    height: 250px;
+    background: #ECF6FF;
+}
+.profile-top-inner{
+    padding-top: 40px;
+}
+.breadcrumb-div-light .breadcrumb-nav{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6E7377;
+    font-family: 'Gordita';
+}
+.breadcrumb-div-light .breadcrumb-nav .MuiTypography-root{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6E7377;
+    font-family: 'Gordita';
+}
+.breadcrumb-div-light .breadcrumb-nav .MuiBreadcrumbs-separator{
+    margin-left: 0;
+    margin-right: 0;
+}
+.breadcrumb-div-light .breadcrumb-nav a:hover, 
+.breadcrumb-div-light .breadcrumb-nav a:focus{
+    color: #6E7377;
+}
+
+.developer_profile-section .developerprofile-detail-section{
+    padding-top: 40px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.developerprofile-detail-section .developerProfile-inner .developerImage{
+    width: 120px;
+}
+.developerprofile-detail-section .developerProfile-inner{
+    display: flex;
+    align-items: flex-start;
+
+}
+.developerprofile-detail-section .developerImage .developer{
+    width: 120px;
+    height: 120px;
+    background: rgba(106, 140, 170, 0.16);
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+.developerprofile-detail-section .developerImage .developer img{
+    width: auto;
+}
+.more_action{
+    color: #6A8CAA !important;
+}
+.more_action:hover{
+    background-color: rgb(255 255 255 / 4%) !important;
+}
+.more_actionList{
+    min-height: auto !important;
+}
+.more_actionList a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6A8CAA;
+}
+.more_actionList.delete a{
+    color: #FF5E7B;
+}
+.more_actionList a img{
+    margin-right: 8px;
+}
+.developerprofile-detail-section .developerProfile-inner .developerDetail{
+    width: calc(100% - 120px);
+    padding-left: 24px;
+}
+.developerprofile-detail-section .developerProfile-inner .developerInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.developerprofile-detail-section .developerProfile-inner .developerInfo h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #343434;
+}
+.developerprofile-detail-section .developerProfile-inner .developerInfo p{
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    opacity: 0.72;
+}
+.developerprofile-detail-section .developerProfile-inner .developerInfo p span{
+    position: relative;
+    padding-left: 20px;
+}
+.developerprofile-detail-section .developerProfile-inner .developerInfo p span::before{
+    content: '';
+    background: #6E7377;
+    position: absolute;
+    left: 8px;
+    width: 4px;
+    height: 4px;
+    top: 50%;
+    border-radius: 100%;
+}
+.skillList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0px !important;
+    flex-wrap: wrap;
+}
+.skillList .skillList-item{
+    width: auto;
+    min-width: 80px;
+    height: 32px;
+    text-align: center;
+    background: rgba(22, 75, 122, 0.08);
+    border-radius: 6px;
+    margin-right: 12px;
+    padding: 5px 20px;
+    white-space: nowrap;
+    margin-bottom: 12px;
+}
+.skillList .skillList-item span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(22, 75, 122, 0.64);
+    font-family: 'Gordita';
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.skillList .more-skill{
+    border: 1px solid #6E7377;
+    background:unset;
+    color: #6E7377;
+}
+
+.developerExpDetails{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.developerExpDetails .expDetail{
+    display: flex;
+    justify-content: flex-start;
+}
+.developerExpDetails .expDetail .icon-container{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.green-bg{
+    background: #08D6A814;
+}
+.yellow-bg{
+    background: #FFD50014;
+}
+.blue-bg{
+    background: #548CA814;
+}
+.voilet-bg{
+    background: #7E5EED14;
+}
+.developerExpDetails .expDetail .icon-container .featured-icon{
+    height: 21px;
+}
+.developerExpDetails .expDetail .featured-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #343434;
+    margin-bottom: 8px;
+}
+.developerExpDetails .expDetail .featured-subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #343434;
+}
+
+.developer-profile-subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    font-family: 'Gordita';
+}
+.aboutContent .content{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343434;
+    margin-bottom: 0;
+    font-family: 'Gordita';
+    word-break: break-all;
+}
+.content a{
+    color: #548CA8;
+    text-decoration: none;
+    padding-left: 8px;
+}
+.moreDetails{
+    background: #ECF6FF;
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+.moreDetails .moreDetails-list li{
+    padding: 15px 24px;
+    display: block;
+}
+.moreDetails .moreDetails-list li p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #131A20;
+    opacity: 0.72;
+    margin-bottom: 2px;
+}
+.moreDetails .moreDetails-list li h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #131A20;
+    margin-bottom: 0;
+}
+/*------------- projects section --------*/
+.projects-container{
+    border-top: 1px solid rgba(22, 75, 122, 0.16);
+    margin-top: 18px;
+    padding-top: 30px;
+}
+.projects-container h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #131A20;
+}
+/* .projects-container .projectsList{
+    margin: 0 -12px;
+} */
+.projects-container .projectsList .MuiGrid-item{
+    padding: 0 12px;
+    margin-bottom: 24px;
+}

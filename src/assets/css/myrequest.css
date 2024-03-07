@@ -1,0 +1,372 @@
+/* .main-content {
+    background-color: #F6F8FA !important;
+} */
+/* .request-top-section {
+    position: relative;
+} */
+
+/* .request-top-section::before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    display: block;
+} */
+
+.request-top-section .MuiTab-root {
+    font-family: "Gordita" !important;
+}
+
+.request-top-section .request-top-inner .request-heading h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.request-top-section .request-top-inner .request-heading {
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+
+.request-top-section .request-top-inner .request-table {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.request-top-section .request-top-inner .request-table .makeStyles-root-1 {
+    border-radius: 12px;
+}
+
+.request-top-section .request-top-inner .request-table .MuiAppBar-colorPrimary {
+    background-color: #fff;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(22, 75, 122, 0.16);
+    border-radius: 12px 12px 0 0;
+    font-family: "Gordita" !important;
+}
+
+.request-top-section .request-top-inner .request-table .MuiBox-root {
+    padding: 10px 0 0 0;
+}
+
+.request-top-section .request-top-inner .request-table .MuiTab-root {
+    color: rgba(14, 16, 26, 0.56);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+}
+
+.request-top-section .request-top-inner .request-table .Mui-selected {
+    color: #0e101a;
+    font-weight: 700;
+}
+
+.request-top-section .request-top-inner .request-table .MuiTabs-indicator {
+    background-color: #548ca8 !important;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content .searchBar {
+    width: 320px;
+    background-color: #f5f8fa;
+    margin-top: 20px;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content .searchBar:hover {
+    background-color: #f5f8fa;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content .filter-btn .formControl .inputField {
+    background: #f5f8fa;
+    width: 200px;
+    border: 1px solid #eaf1f5;
+    border-radius: 8px;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content .filter-btn .formControl {
+    margin-bottom: 20px !important;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content .filter-btn .formControl .MuiAutocomplete-inputRoot {
+    color: #548ca8;
+    font-weight: 500;
+    font-family: "Gordita" !important;
+    padding-left: 30px !important;
+    position: relative;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content .filter-btn .formControl .inputField.selectTextField input {
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.request-top-section .request-top-inner .request-table .searchbar-content .filter-btn .formControl .MuiAutocomplete-inputRoot::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/icons/filter-grey-icon.svg);
+    width: 14px;
+    height: 14px;
+    top: 18px;
+    left: 12px;
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table th {
+    padding: 8px 24px;
+    color: #343434b8;
+    border-bottom: 1px solid #f3f9ff;
+    font-family: "Gordita";
+    background: #f3f9ff;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.request-top-section .request-top-inner .main-table-filter {
+    padding: 0 20px;
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table th:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table th:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table th .MuiButtonBase-root {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(14, 16, 26, 0.72);
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table td {
+    font-family: "Gordita";
+    border-top: 1px solid rgba(99, 180, 253, 0.16);
+    border-bottom: 1px solid rgba(99, 180, 253, 0.16);
+    padding: 16px 24px;
+    position: relative;
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table td:first-child {
+    border-left: 1px solid rgba(99, 180, 253, 0.16);
+    border-radius: 8px 0 0 8px;
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table td:last-child {
+    border-right: 1px solid rgba(99, 180, 253, 0.16);
+    border-radius: 0 8px 8px 0;
+}
+
+.request-top-section .request-top-inner .MuiPaper-elevation1 {
+    box-shadow: unset !important;
+}
+
+.table-center-content .css-1q1u3t4-MuiTableRow-root.Mui-selected {
+    background-color: transparent;
+}
+
+.table-center-content .css-1q1u3t4-MuiTableRow-root:hover {
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 6%);
+    background-color: #fff !important;
+}
+
+.request-top-section .request-top-inner .table-center-content {
+    border-collapse: unset !important;
+    border-spacing: 0px 10px !important;
+}
+
+.request-top-section .request-top-inner .table-center-content .cancle-btn {
+    background: rgba(106, 140, 170, 0.08);
+    border-radius: 138px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    min-width: 32px;
+}
+
+.request-top-section .request-top-inner .table-center-content .cancle-btn-blue {
+    background: #548ca8;
+    border-radius: 138px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+}
+
+.request-top-section .request-top-inner .table-center-content .cancle-btn img {
+    width: auto;
+}
+
+.request-top-section .request-top-inner .table-center-content .cancle-btn-red {
+    background: rgba(249, 14, 56, 0.08);
+    border-radius: 138px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.request-top-section .request-top-inner .main-table-filter .job-post-table th:first-child {
+    min-width: 150px;
+}
+
+.request-top-section .request-top-inner .table-center-content .cancle-btn-red img {
+    width: auto;
+}
+
+.top-heading-content {
+    padding-top: 10px;
+}
+
+@media (max-width: 992px) {
+    .table-center-content .css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon {
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .request-top-section .request-top-inner .request-heading h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .request-top-section .request-top-inner .request-heading {
+        margin: 10px 0 16px 0;
+    }
+
+    .request-top-section .request-top-inner .MuiBox-root-6 {
+        padding: 15px;
+    }
+
+    .request-top-section .request-top-inner .main-table-filter .job-post-table th {
+        padding: 8px 12px;
+    }
+
+    .request-top-section .request-top-inner .main-table-filter .job-post-table td {
+        padding: 12px 12px;
+    }
+
+    .request-top-section .request-top-inner .request-table .searchbar-content .filter-btn .formControl .inputField {
+        width: 100%;
+    }
+
+    .request-top-section .request-top-inner .request-table .inputField.selectTextField input {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .request-top-section .request-top-inner .request-table .filter-btn {
+        width: 100%;
+    }
+
+    .request-top-section .request-top-inner .request-table .searchbar-content .searchBar {
+        width: 100%;
+    }
+
+    .request-top-section .request-top-inner .main-table-filter {
+        padding: 0;
+    }
+}
+
+/* pratik 05/09/2022 */
+.chat-cancle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.chat-cancle-btn .cancle-btn:first-child {
+    margin-right: 16px;
+}
+
+.single-td {
+    border-radius: 8px !important;
+}
+
+.request-sub-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.request-sub-heading span {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #6e7377;
+}
+
+@media (max-width: 600px) {
+    .custom-search-loader .custom-circle-loder {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .request-sub-heading {
+        display: block;
+    }
+
+    .request-sub-heading span {
+        font-size: 14px;
+        line-height: 22px;
+        display: block;
+        margin-top: 6px;
+    }
+}
+
+.job-post-form-loader {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-search-loader {
+    height: 70px;
+}
+
+.custom-search-loader .custom-circle-loder {
+    color: #548ca8;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.job-post-form-loader .custom-circle-loder .MuiCircularProgress-svg {
+    color: #548ca8;
+}
+
+.hired-salary {
+    font-weight: 700;
+}

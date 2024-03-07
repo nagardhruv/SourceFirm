@@ -1,0 +1,483 @@
+.createJob-container {
+    padding-top: 40px;
+}
+
+.createJob-stepper {
+    min-height: 679px;
+    padding: 24px 24px 20px;
+    background: #476072;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    color: #fff !important;
+    margin-right: 32px;
+}
+
+.createJob-divider {
+    border-color: rgb(255 255 255 / 12%) !important;
+    margin: 12px 0px !important;
+}
+
+.createJob-stepper .title h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    opacity: 0.92;
+}
+
+.createJob-stepper .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createJob-stepper .title .step-count {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.createJob-stepper .title .step-count span {
+    color: rgb(255 255 255 / 40%);
+}
+
+/*--------------- Dashboard container style -------------*/
+.createJob-wrapper {
+    padding-left: 24px;
+}
+
+.createJob-wrapper .createJob-wrapper-inner {
+    min-height: 607px;
+    border-bottom: 1px solid #4760721f;
+}
+
+.createJob-wrapper .budgetSliderInputs .budget-formGrid {
+    align-items: flex-start;
+    flex-wrap: unset !important;
+}
+
+.createJob-wrapper h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #0e101a;
+    margin-bottom: 24px;
+}
+
+.MuiStepper-vertical .MuiStepLabel-iconContainer img {
+    width: 16px;
+    height: 16px;
+    object-fit: unset;
+}
+
+.MuiStepper-vertical .MuiStepContent-root {
+    margin-left: 16px !important;
+}
+
+.MuiStepper-vertical .MuiStepConnector-root {
+    margin-left: 30px !important;
+}
+
+.MuiStepper-vertical .stepperLabel .MuiStepLabel-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.MuiStepper-vertical .stepperLabel .MuiStepLabel-label.Mui-active {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.MuiStepper-vertical .stepDescription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.bottom-buttons {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.saveDraftBtn {
+    border-radius: 8px !important;
+    min-width: 140px !important;
+    padding: 11px 12px !important;
+    font-size: 14px !important;
+    font-family: "Gordita" !important;
+    text-transform: capitalize !important;
+    color: #548ca8 !important;
+    background-color: #548ca814 !important;
+}
+
+.bottom-buttons .action-div {
+    margin: 0;
+}
+
+.availability-section .title {
+    font-family: "Gordita" !important;
+    font-weight: 500;
+    color: #131a20;
+    opacity: 0.72;
+    font-size: 12px;
+}
+
+.availability-section .availability-options {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    flex-direction: row;
+}
+
+.availability-section .availability-options .select-avaibility:first-of-type {
+    margin-right: 26px;
+}
+
+.availability-section .select-avaibility {
+    width: 147px;
+    height: 140px;
+    border: 2px solid rgba(14, 16, 26, 0.12);
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.availability-section .select-avaibility .select-radiobox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.availability-section .select-avaibility img {
+    height: 32px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.availability-section .select-avaibility p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6a8caa;
+}
+
+.availability-section .select-avaibility:hover,
+.availability-section .select-avaibility.active {
+    border: 2px solid #548ca8;
+    background: #548ca80f;
+}
+
+.availability-section .select-avaibility:hover .select-radiobox,
+.availability-section .select-avaibility.active .select-radiobox {
+    opacity: 1;
+}
+
+/*---- experience------*/
+.createJobList {
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 24px;
+    padding-bottom: 0px !important;
+}
+
+.createJobList .createJob-item {
+    position: relative;
+    border: 2px solid rgba(14, 16, 26, 0.12);
+    border-radius: 8px;
+    min-height: 56px;
+    padding: 0;
+    height: unset;
+}
+
+.create-radio-btn {
+    padding: 8px;
+    height: unset;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+
+
+.createJobList .createJob-item p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    /* text-transform: capitalize; */
+    color: #6a8caa;
+}
+
+.createJobList .createJob-item .createJob-checkbox {
+    position: absolute !important;
+    right: 7px;
+    opacity: 0;
+    top: 5px;
+}
+
+.createJobList .createJob-item .createJob-radiobox {
+    position: absolute !important;
+    right: 7px;
+    opacity: 0;
+    top: 5px;
+}
+
+.createJobList .createJob-item:hover,
+.createJobList .createJob-item.active {
+    border: 2px solid #548ca8;
+    background: #548ca80f;
+}
+
+.createJobList .createJob-item:hover .createJob-checkbox,
+.createJobList .createJob-item.active .createJob-checkbox {
+    opacity: 1;
+}
+
+.createJobList .createJob-item:hover .createJob-radiobox,
+.createJobList .createJob-item.active .createJob-radiobox {
+    opacity: 1;
+}
+
+/*------------ budget ----------*/
+.jobBudget {
+    margin-bottom: 32px;
+}
+
+.jobBudget .title {
+    font-family: "Gordita" !important;
+    font-weight: 500;
+    color: #131a20;
+    opacity: 0.72;
+    font-size: 12px;
+}
+
+.budgetSlider {
+    width: 100%;
+    padding: 12px 0 8px 0;
+}
+
+.budgetSliderInputs {
+    width: 100%;
+}
+
+.budget-formGrid {
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: flex-end;
+}
+
+.budget-formGrid .to-text {
+    margin-top: 16px;
+    padding: 0 12px;
+}
+
+.budget-formGrid .formControl {
+    width: 160px !important;
+    margin-bottom: 0px !important;
+}
+
+.jobBudget-radiogroup {
+    width: 100%;
+}
+
+/*-------------------------------------------*/
+/*-------------- responsive -----------------*/
+
+@media(max-width: 1200px) {
+    .availability-section .select-avaibility {
+        cursor: unset;
+    }
+
+    .create-radio-btn {
+        cursor: unset;
+    }
+}
+
+@media (max-width: 1024px) {
+    .createJobList .createJob-item p {
+        font-size: 13px;
+    }
+
+    .create-radio-btn {
+        cursor: unset;
+    }
+
+
+}
+
+@media (max-width: 899px) {
+    .createJob-wrapper {
+        padding-left: 0px;
+    }
+
+    .createJob-stepper {
+        margin-right: 0;
+    }
+
+    .budget-formGrid {
+        justify-content: center;
+    }
+
+    .jobBudget {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .createJobList {
+        grid-template-columns: auto auto;
+        grid-gap: 12px;
+    }
+}
+
+@media (max-width: 424px) {
+
+    /* .bottom-buttons {
+        display: block;
+    } */
+    .saveDraftBtn {
+        width: 100%;
+    }
+
+    /* .bottom-buttons .action-div {
+        margin-top: 15px;
+    } */
+}
+
+@media (max-width: 375px) {
+    .availability-section .availability-options .select-avaibility:first-of-type {
+        margin-right: 12px;
+    }
+
+    .availability-section .select-avaibility {
+        width: 130px;
+        height: 118px;
+    }
+
+    /* hello */
+}
+
+.saveDraftBtn:disabled {
+    opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+    .bottom-buttons .saveDraftBtn {
+        width: auto;
+    }
+
+    .createJobList .createJob-item .createJob-radiobox {
+        right: 0px;
+        top: 7px;
+        padding: 6px;
+    }
+}
+
+.select-radiobox.Mui-checked {
+    color: #548ca8 !important;
+}
+
+.select-checkbox.Mui-checked {
+    color: #548ca8 !important;
+}
+
+.createJob-radiobox.Mui-checked {
+    color: #548ca8 !important;
+}
+
+.budgetSlider .swipe-sliding {
+    color: #548ca8;
+}
+
+.createJob-wrapper-inner .multiSelect-Textfield .MuiOutlinedInput-root {
+    padding-right: 65px !important;
+}
+
+.createJob-wrapper-inner .MuiAutocomplete-tag {
+    background-color: #548ca8 !important;
+}
+
+@media(max-width:600px) {
+    .createJobList .createJob-item p {
+        margin-right: 4px;
+    }
+
+    .createJobList .createJob-item {
+        padding: 8px;
+        min-height: 50px;
+    }
+
+    .saveDraftBtn {
+        font-size: 12px !important;
+        min-width: 124px !important;
+        padding: 8px 8px !important;
+    }
+
+    .bottom-buttons .primaryButton {
+        padding: 8px 8px !important;
+        min-width: 100px !important;
+    }
+
+    .cancelBtn {
+        padding-right: 16px !important;
+    }
+
+    .availability-section .availability-options {
+        padding-bottom: 20px;
+    }
+
+    .createJobList {
+        padding-bottom: 20px !important;
+    }
+
+    .jobBudget {
+        margin-bottom: 10px;
+    }
+
+    .manage_job .manage-job-list .job-list-content .job-list-card .job-card-header .active-inactive-list .heading-dot-icon {
+        width: 20px;
+    }
+
+    .manage_job .manage-job-list .job-list-content .job-list-card .job-card-header .heading-text {
+        margin-right: 4px;
+    }
+
+    .manage_job .manage-job-heading h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .manage_job .manage-job-list .job-list-content .job-list-card .job-card-footer {
+        padding: 12px 24px 8px;
+    }
+
+    .manage_job .manage-job-heading .primaryButton {
+        font-size: 12px !important;
+        padding: 8px 10px !important;
+    }
+
+}
+
+.select-avaibility {
+    width: 0;
+}

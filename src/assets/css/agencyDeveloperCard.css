@@ -1,0 +1,148 @@
+/* agency Developer card */
+.agency-developer-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #0E101A;
+    margin-bottom: 9px;
+}
+
+.agency-developer-card {
+    box-shadow: 0px 4px 16px rgba(22, 75, 122, 0.08) !important;
+    background: #FFFFFF;
+    border-radius: 12px !important;
+    padding: 4px;
+    border: none;
+    margin-top: 16px;
+}
+
+.agency-developer-card:hover {
+    background: linear-gradient(111.05deg, #548CA8 -2.01%, #FFFFFF 106.38%);
+}
+
+.agency-developer-card .agency-developer-card_inner {
+    background: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.agency-developer-card .agency-developer-card_inner .MuiCardContent-root {
+    padding: 20px;
+}
+
+.agency-developer-card .agency-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.agency-developer-card .agency-top .agency-detail h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #131A20;
+    margin-bottom: 4px;
+}
+
+.agency-developer-card .agency-top .agency-detail p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #343434;
+    opacity: 0.72;
+    margin-bottom: 0;
+}
+
+.agency-developer-card .agency-exp-info {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(14, 16, 26, 0.64);
+}
+
+.agency-developer-card .agency-exp-info img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.agency-developer-card:hover .agency-exp-info img {
+    display: none;
+}
+
+.agency-developer-card .agency-exp-info img.blue-icon {
+    display: none;
+}
+
+.agency-developer-card:hover .agency-exp-info img.blue-icon {
+    display: block;
+}
+
+.agency-developer-card .agency-exp-info .experience,
+.agency-developer-card .agency-exp-info .duration {
+    display: flex;
+    align-items: center;
+}
+
+.agency-developer-card .agency-exp-info .experience {
+    margin-right: 15px;
+}
+
+.skillList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0px !important;
+    flex-wrap: wrap;
+    padding-bottom: 0 !important;
+}
+
+.skillList .skillList-item {
+    width: auto;
+    min-width: 80px;
+    height: 32px;
+    text-align: center;
+    /* background: #F6F8FA; */
+    background: rgb(106 140 170 / 8%);
+    border-radius: 6px;
+    margin-right: 12px;
+    padding: 5px 20px;
+    white-space: nowrap;
+    margin-bottom: 12px;
+}
+
+.skillList .skillList-item span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #50525A;
+    font-family: 'Gordita';
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.skillList .more-skillList-item {
+    border: 1px solid rgba(14, 16, 26, 0.12);
+    background: unset;
+    color: #50525A;
+}
+
+.agency-developer-card .agency-developer-card_inner .content .discription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(14, 16, 26, 0.64);
+}
+
+/*--------- agencies-section end -----------------*/
+
+
+@media(max-width: 600px) {
+    .agency-developer-card .agency-top {
+        display: block;
+    }
+}

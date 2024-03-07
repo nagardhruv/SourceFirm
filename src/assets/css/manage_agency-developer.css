@@ -1,0 +1,260 @@
+/*-------------- manage developer style -------------*/
+
+.pagetitle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 16px;
+}
+
+.pagetitle-container h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #0e101a;
+}
+
+.manage-developer-paper {
+    border-radius: 12px !important;
+    border: 1px solid rgba(99, 180, 253, 0.16);
+    background: #fff;
+    box-shadow: none !important;
+}
+
+.manage_developer-table {
+    padding: 24px;
+    border-collapse: unset !important;
+    border-spacing: 0px 10px !important;
+}
+
+.manage_developer-table .tableCellHead {
+    padding: 8px 12px;
+    color: #343434b8;
+    border-bottom: 1px solid #f3f9ff;
+    font-family: "Gordita";
+}
+
+.manage_developer-table .tableCellHead {
+    background: #f3f9ff;
+}
+
+.manage_developer-table .tableCellHead:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.manage_developer-table .tableCellHead:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.manage_developer-table .tableTitle {
+    font-family: "Gordita";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #0e101a;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+    padding: 0px;
+}
+
+.manage_developer-table .tableDataCell {
+    font-family: "Gordita";
+    border-top: 1px solid rgba(99, 180, 253, 0.16);
+    border-bottom: 1px solid rgba(99, 180, 253, 0.16);
+    padding: 8px 16px;
+    position: relative;
+}
+
+.manage_developer-table .tableDataCell:first-child {
+    border-left: 1px solid rgba(99, 180, 253, 0.16);
+    border-radius: 8px 0 0 8px;
+}
+
+.manage_developer-table .tableDataCell:last-child {
+    border-right: 1px solid rgba(99, 180, 253, 0.16);
+    border-radius: 0 8px 8px 0;
+}
+
+.MuiTablePagination-root p {
+    margin-bottom: 0px;
+}
+
+.manage_developer-table .tableDataCell .actionBtn {
+    color: #6a8caa;
+}
+
+.manage_developer-table .tableDataCell .actionBtn .actionLink {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6a8caa !important;
+    text-decoration: none;
+}
+
+.no_data-content {
+    padding: 24px;
+    text-align: center;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no_data-content img {
+    width: auto;
+    height: 220px;
+}
+
+.no_data-content h6 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #131a20;
+    margin: 40px 0 12px;
+    max-width: 550px;
+}
+
+.no_data-content P {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(14, 16, 26, 0.64);
+    margin-bottom: 32px;
+    max-width: 550px;
+}
+
+.updated-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: #ff9e2d;
+    position: absolute;
+    margin: 6px 0;
+}
+
+.updated-dot-blocked {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: #ff5e7b;
+    position: absolute;
+    margin: 6px 0;
+}
+
+.tableDataCell.cell-id {
+    padding-left: 24px;
+    width: 230px;
+}
+
+.tableDataCell .updated-dot {
+    left: 10px;
+}
+.tableDataCell .updated-dot-blocked {
+    left: 10px;
+}
+
+.tableDataCell .blocked-tag {
+    position: absolute;
+    left: 1px;
+    top: 10px;
+}
+
+.tableDataCell .approval-tag {
+    position: absolute;
+    left: 1px;
+    top: 10px;
+}
+
+.tableDataCell .approval-tag {
+    width: fit-content;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    text-align: left;
+    color: #131a20;
+    padding: 5px 12px 5px 24px;
+}
+
+.tableDataCell .approval-tag::before {
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+.tableDataCell .blocked-tag {
+    width: fit-content;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    text-align: left;
+    color: #131a20;
+    padding: 5px 12px 5px 24px;
+}
+
+.tableDataCell .blocked-tag::before {
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+.manage_developer-table .isRejected .tableDataCell {
+    color: #0e101a7a;
+}
+
+/*-------------- manage developer style -------------*/
+.manage_developer-table .tableDataCell .pending {
+    background: rgba(255, 158, 45, 0.08);
+    color: #ff9e2d;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.manage_developer-table .tableDataCell .rejected {
+    background: rgba(249, 14, 56, 0.08);
+    color: #f90e38;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.manage_developer-table .tableDataCell .approved {
+    background: rgba(126, 191, 20, 0.08);
+    color: #7ebf14;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/*-------------- manage developer style -------------*/
+/*----------------- responsive ----------------*/
+@media (max-width: 767px) {
+    .pagetitle-container h3 {
+        font-size: 20px;
+    }
+
+    .manage_developer-table .tableTitle {
+        font-size: 16px;
+    }
+
+    .tableDataCell .approval-tag {
+        width: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    .no_data-content h6 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .no_data-content P {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.singleTableCell {
+    border-radius: 8px !important;
+}

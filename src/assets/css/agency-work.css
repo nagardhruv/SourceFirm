@@ -1,0 +1,1196 @@
+.agency-banner-section {
+    background-image: url(../img/agency-banner-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 802px;
+    background-position: center;
+}
+
+.agency-banner-section .agency-banner-inner {
+    padding-top: 140px;
+}
+
+.agency-banner-section .agency-banner-inner .heading {
+    text-align: center;
+    padding: 16px;
+}
+
+.agency-banner-section .agency-banner-inner .heading h2 {
+    font-size: 56px;
+    line-height: 80px;
+    color: #548ca8;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.agency-banner-section .agency-banner-inner .heading h2 span {
+    color: #131a20;
+}
+
+.agency-banner-section .agency-banner-inner .heading p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #131a20;
+    opacity: 0.64;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.agency-banner-section .agency-banner-inner .heading .btn-primary {
+    padding: 14px 18px;
+    color: #fff;
+    background: #548ca8;
+    box-shadow: 0px 8px 24px 16px rgb(84 140 168 / 8%);
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    text-transform: none;
+    font-family: "Gordita";
+    transition: all 0.8s !important;
+}
+
+.agency-banner-section .agency-banner-inner .heading .btn-primary:hover {
+    box-shadow: 0 3px 15px 0 rgb(0 134 230 / 40%);
+    transform: translateY(-3px);
+}
+
+.agency-banner-section .agency-banner-inner .agency-banner-wrapper {
+    position: relative;
+    min-height: 300px;
+}
+
+.agency-banner-section .agency-banner-inner .agency-banner-wrapper img {
+    width: auto;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern1 {
+    position: absolute;
+    left: 50px;
+    top: -100px;
+    animation-duration: 0.6s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern2 {
+    position: absolute;
+    left: 165px;
+    top: -130px;
+    animation-duration: 0.9s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern3 {
+    position: absolute;
+    left: 220px;
+    top: 140px;
+    animation-duration: 1.3s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern4 {
+    position: absolute;
+    left: 290px;
+    top: -10px;
+    animation-duration: 0.7s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern5 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    text-align: center;
+    animation-duration: 1s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern6 {
+    position: absolute;
+    right: 310px;
+    top: 60px;
+    animation-duration: 1.4s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern7 {
+    position: absolute;
+    position: absolute;
+    right: 210px;
+    top: -110px;
+    animation-duration: 0.9s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern8 {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    animation-duration: 1.2s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern9 {
+    position: absolute;
+    right: 50px;
+    top: -150px;
+    animation-duration: 1s;
+}
+
+.agency-banner-section
+    .agency-banner-inner
+    .agency-banner-wrapper
+    .agency-pattern10 {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    animation-duration: 1.5s;
+}
+
+/* account-section start */
+.account-section {
+    height: 600px;
+    background-color: #fff;
+}
+
+.account-section .account-inner {
+    background: linear-gradient(304.47deg, #548ca8 12.61%, #88b9d1 86.19%);
+    padding-top: 80px;
+    max-height: 320px;
+}
+
+.account-section .account-inner .heading {
+    padding-bottom: 50px;
+}
+
+.account-section .account-inner .heading h2 {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.account-section .account-inner .heading p {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+.account-section .account-inner .account-wrapper {
+    position: relative;
+}
+
+.account-section .account-inner .account-wrapper:before {
+    content: "";
+    background-image: url(../img/account-bg1.png);
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 165px;
+    position: absolute;
+    right: 0;
+    top: -130px;
+}
+
+.account-section .account-inner .account-wrapper .account-card {
+    padding: 24px 20px 0px 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(11, 41, 56, 0.08);
+    border-radius: 20px;
+    height: 100%;
+}
+
+.account-section
+    .account-inner
+    .account-wrapper
+    .account-card
+    .account-card-image {
+    margin-bottom: 20px;
+}
+
+.account-section
+    .account-inner
+    .account-wrapper
+    .account-card
+    .account-card-image
+    img {
+    width: 35px;
+}
+
+.account-section
+    .account-inner
+    .account-wrapper
+    .account-card
+    .account-card-text
+    h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #131a20;
+    margin-bottom: 12px;
+}
+
+.account-section
+    .account-inner
+    .account-wrapper
+    .account-card
+    .account-card-text
+    p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #6e7377;
+    margin: 0;
+}
+
+/* agency-explore-section start */
+.agency-explore-section {
+    padding-top: 130px;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.agency-explore-section
+    .explore-wrapper
+    .agency-left-content
+    .agency-left-image {
+    max-width: 420px;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-left: 60px;
+}
+
+.agency-explore-section .explore-wrapper .agency-left-content {
+    position: relative;
+    z-index: 10;
+}
+
+.agency-explore-section
+    .explore-wrapper
+    .agency-left-content
+    .agency-left-pattern1 {
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+.agency-explore-section
+    .explore-wrapper
+    .agency-left-content
+    .agency-left-pattern2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.agency-explore-section
+    .explore-wrapper
+    .agency-left-content
+    .agency-left-pattern3 {
+    position: absolute;
+    width: 305px;
+    height: 226px;
+    background: #eaf1f5;
+    border-radius: 16px;
+    right: 35px;
+    top: -42px;
+    z-index: -1;
+}
+
+.agency-explore-section
+    .explore-wrapper
+    .agency-left-content
+    .agency-left-pattern4 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    background: #eaf1f5;
+    border-radius: 16px;
+    left: 0px;
+    bottom: -28px;
+    z-index: -1;
+}
+
+/* earn-section section start */
+.earn-section {
+    padding-top: 70px;
+    background-color: #fff;
+}
+
+.earn-section .earn-inner .heading h2 {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #548ca8;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.earn-section .earn-inner .heading h2 span {
+    color: #131a20;
+}
+
+.earn-section .earn-inner .earn-box {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 4px 16px rgba(11, 41, 56, 0.08);
+    background-color: #548ca8;
+}
+
+.earn-section .earn-inner .earn-box .earn-card {
+    background-color: #548ca8;
+    height: 100%;
+}
+
+.earn-section .earn-inner .earn-box .fourth-earn-card {
+    background-color: #476072;
+}
+
+.earn-section .earn-inner .earn-box .earn-card-text {
+    padding: 32px;
+}
+
+.earn-section .earn-inner .earn-box .earn-card-text h4 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.earn-section .earn-inner .earn-box .earn-card-text p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.earn-section .earn-inner .earn-box .earn-card-text .btn-secondary {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    padding: 13px 22px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    box-shadow: none;
+    font-family: "Gordita";
+    cursor: pointer;
+}
+
+.earn-section .earn-inner .earn-box .earn-card-text .btn-secondary:hover {
+    background-color: #fff;
+    color: #548ca8;
+}
+
+.earn-section .earn-inner .earn-box .earn-card .earn-card-image {
+    height: 100%;
+}
+
+.earn-section .earn-inner .earn-box .earn-card .earn-card-image img {
+    display: block;
+    height: 100%;
+}
+
+/* paid-section start */
+.paid-section {
+    padding-top: 80px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.paid-section .paid-inner {
+    padding-top: 46px;
+    background-color: #f8f9f9;
+    position: relative;
+    z-index: 10;
+}
+
+.paid-main-pattern {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.paid-section .paid-inner::before {
+    content: "";
+    background-image: url(../img/paid-pattern1.png);
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 46px;
+    left: 0;
+    right: 200px;
+    bottom: 55px;
+    position: absolute;
+    background-size: contain;
+    text-align: center;
+    margin: auto;
+    z-index: -1;
+}
+
+.paid-section .paid-inner::after {
+    content: "";
+    background: url(../img/paid-pattern.png);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 46px;
+    left: 0;
+    right: 0;
+    top: 45px;
+    position: absolute;
+    background-size: contain;
+    text-align: center;
+    margin: auto;
+    z-index: -1;
+}
+
+.paid-section .paid-inner .paid-left-content h2 {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #131a20;
+    margin-bottom: 16px;
+}
+
+.paid-section .paid-inner .paid-left-content h2 span {
+    color: #548ca8;
+}
+
+.paid-section .paid-inner .paid-left-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.paid-section .paid-inner .paid-left-content ul li {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #131a20;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    position: relative;
+    list-style: none;
+}
+
+.paid-section .paid-inner .paid-left-content ul li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #548ca8;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+.paid-section .paid-inner .paid-left-content p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #131a20;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.paid-section .paid-inner .paid-left-content p a {
+    color: #548ca8;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.paid-section .paid-inner .paid-right-content .paid-right-image {
+    max-width: 372px;
+    margin: 0 auto;
+    margin-right: 70px;
+}
+
+.paid-section .paid-inner .paid-right-content .paid-right-image img {
+    display: block;
+}
+
+.paid-section .paid-inner .paid-right-content {
+    position: relative;
+}
+
+.paid-section .paid-inner .paid-right-content .paid-pattern1 {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+
+.paid-section .paid-inner .paid-right-content .paid-pattern2 {
+    position: absolute;
+    right: 40px;
+    top: 0;
+}
+
+.paid-section .paid-inner .paid-right-content .paid-pattern3 {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+
+.paid-section .paid-inner .paid-right-content .paid-pattern4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.paid-section .paid-inner .paid-right-content .paid-pattern4 img {
+    display: block;
+}
+
+.paid-section .paid-inner .paid-left-content {
+    padding-top: 30px;
+}
+
+@media (max-width: 1300px) {
+    .agency-banner-section {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1024px) {
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-image {
+        max-width: 70%;
+    }
+
+    .paid-main-pattern {
+        max-width: 60px;
+    }
+
+    .paid-section .paid-inner::before {
+        width: 230px;
+    }
+
+    .paid-section .paid-inner::after {
+        width: 320px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern3 {
+        left: 0;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern1 {
+        top: 0;
+        left: 70px;
+    }
+}
+
+@media (max-width: 899px) {
+    .agency-banner-section .agency-banner-inner {
+        padding-top: 80px;
+    }
+
+    .agency-banner-section {
+        height: 100%;
+    }
+
+    .agency-banner-section .agency-banner-inner .heading h2 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern1 {
+        left: 0;
+        top: 40px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern1
+        img {
+        width: 50px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern2 {
+        position: absolute;
+        left: 130px;
+        top: -40px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern3 {
+        position: absolute;
+        left: 160px;
+        top: 100px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern3
+        img {
+        width: 45px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern4 {
+        position: absolute;
+        left: 280px;
+        top: 10px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern6 {
+        position: absolute;
+        right: 250px;
+        top: 30px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern6
+        img {
+        width: 50px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern7 {
+        position: absolute;
+        position: absolute;
+        right: 170px;
+        top: -90px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern9 {
+        position: absolute;
+        right: 25px;
+        top: -100px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern9
+        img {
+        width: 60px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern10 {
+        position: absolute;
+        right: 0;
+        bottom: 80px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern5 {
+        left: 30px;
+    }
+
+    .account-section .account-inner .account-wrapper .account-card {
+        padding: 20px 16px 0px 16px;
+    }
+
+    .account-section
+        .account-inner
+        .account-wrapper
+        .account-card
+        .account-card-image {
+        margin-bottom: 10px;
+    }
+
+    .account-section
+        .account-inner
+        .account-wrapper
+        .account-card
+        .account-card-image
+        img {
+        width: 30px;
+    }
+
+    .account-section
+        .account-inner
+        .account-wrapper
+        .account-card
+        .account-card-text
+        h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+
+    .account-section
+        .account-inner
+        .account-wrapper
+        .account-card
+        .account-card-text
+        p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .agency-explore-section .explore-wrapper .agency-left-content {
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern1 {
+        top: -20px;
+        left: 24px;
+        max-width: 80px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern2 {
+        max-width: 80px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern4 {
+        width: 100px;
+        height: 100px;
+        left: 30px;
+        bottom: -20px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern3 {
+        width: 140px;
+        height: 100px;
+        right: 35px;
+        top: -30px;
+    }
+
+    .explore-wrapper .MuiGrid-root {
+        padding-left: 0;
+    }
+
+    .earn-section .earn-inner .earn-box .earn-card-text p {
+        margin-bottom: 26px;
+    }
+
+    .earn-section .earn-inner .earn-box .earn-card-text h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .earn-section .earn-inner .earn-box .earn-card-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .earn-section .earn-inner .earn-box .earn-card-text {
+        padding: 24px;
+    }
+
+    .paid-section .paid-inner .paid-left-content h2 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .paid-section .paid-inner .paid-left-content ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .paid-section .paid-inner .paid-left-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern1 {
+        max-width: 40px;
+    }
+
+    .paid-section .paid-inner::before {
+        bottom: 0px;
+        width: 225px;
+    }
+
+    .paid-section .paid-inner::after {
+        width: 180px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern2 {
+        max-width: 45px;
+    }
+
+    .paid-section .paid-inner .paid-left-content {
+        padding-top: 20px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-right-image {
+        max-width: 250px;
+        margin-right: 0;
+        margin-left: 50px;
+    }
+
+    .paid-main-pattern {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        bottom: unset;
+        transform: rotate(90deg);
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern3 {
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .agency-banner-section .agency-banner-inner {
+        padding-top: 60px;
+    }
+
+    .agency-banner-section .agency-banner-inner .heading h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+
+    .agency-banner-section .agency-banner-inner .heading p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 24px;
+        max-width: 100%;
+    }
+
+    .agency-banner-section .agency-banner-inner .heading .btn-primary {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern1 {
+        top: 0;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern2 {
+        left: 30px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern3 {
+        position: absolute;
+        left: 30px;
+        top: 140px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern4 {
+        position: absolute;
+        left: 86px;
+        top: 38px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern5 {
+        left: 40px;
+        top: 120px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern6 {
+        right: 90px;
+        top: 10px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern7 {
+        right: 20px;
+        top: -65px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern8 {
+        right: 55px;
+        top: 80px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern9 {
+        right: 10px;
+        top: 70px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern10 {
+        right: 25px;
+        bottom: 88px;
+    }
+
+    .account-section {
+        height: 100%;
+    }
+
+    .account-section .account-inner {
+        max-height: 100%;
+        padding-top: 20px;
+    }
+
+    .account-section .account-inner .heading h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .account-section .account-inner .heading p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .account-section .account-inner .heading {
+        padding-bottom: 30px;
+    }
+
+    .account-section .account-inner .account-wrapper:before {
+        width: 80px;
+        height: 80px;
+        top: -45px;
+        background-size: contain;
+    }
+
+    .account-section .account-inner .account-wrapper .account-card {
+        height: unset;
+        margin-bottom: 16px;
+        padding: 16px;
+        border-radius: 12px;
+    }
+
+    .agency-explore-section {
+        padding-top: 60px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-image {
+        margin-left: 0;
+    }
+
+    .agency-explore-section .explore-wrapper .agency-left-content {
+        max-width: 65%;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-image {
+        max-width: 100%;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern3 {
+        width: 100px;
+        height: 80px;
+        right: -20px;
+        top: -20px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern4 {
+        width: 90px;
+        height: 70px;
+        left: -20px;
+        bottom: -20px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern1 {
+        top: -20px;
+        left: -30px;
+        max-width: 60px;
+    }
+
+    .agency-explore-section
+        .explore-wrapper
+        .agency-left-content
+        .agency-left-pattern2 {
+        position: absolute;
+        bottom: 0px;
+        right: -30px;
+        max-width: 60px;
+    }
+
+    .explore-section .explore-wrapper .explore-right-content .heading h2 {
+        margin-bottom: 20px;
+    }
+
+    .earn-section {
+        padding-top: 10px;
+    }
+
+    .earn-section .earn-inner .heading h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .earn-section .earn-inner .earn-box .earn-card-text .btn-secondary {
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+
+    .paid-main-pattern {
+        max-width: 40px;
+    }
+
+    .paid-section .paid-inner .paid-left-content h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .paid-section .paid-inner .paid-left-content {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .paid-section .paid-inner .paid-left-content ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .paid-section .paid-inner .paid-left-content ul li::before {
+        top: 9px;
+    }
+
+    .paid-section .paid-inner .paid-left-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern1 {
+        max-width: 30px;
+        left: 80px;
+    }
+
+    .paid-section {
+        padding-top: 50px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-right-image {
+        max-width: 180px;
+        margin: auto;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern3 {
+        left: 20px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern2 {
+        max-width: 40px;
+    }
+
+    .paid-section .paid-inner .paid-right-content .paid-pattern4 {
+        max-width: 35px;
+    }
+
+    .agency-banner-section .agency-banner-inner .agency-banner-wrapper {
+        margin-top: 0;
+        padding-top: 60px;
+        margin-top: 30px;
+    }
+
+    .agency-banner-section
+        .agency-banner-inner
+        .agency-banner-wrapper
+        .agency-pattern8 {
+        display: none;
+    }
+
+    .earn-section .earn-inner .earn-box .box-earn-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .earn-section .earn-inner .earn-box {
+        border-radius: 12px;
+    }
+
+    .account-section {
+        overflow: hidden;
+    }
+}

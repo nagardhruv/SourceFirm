@@ -1,0 +1,307 @@
+.privacy-policy-section .privacy-policy-inner {
+    background-image: url(../img/privacypolicy-bg.png);
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.privacy-policy-section .privacy-policy-inner .banner-header {
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy-policy-section .privacy-policy-inner .banner-header h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+    margin: 0;
+    color: #ffffff;
+}
+
+.privacy-introduction {
+    padding-top: 32px;
+}
+
+.privacy-introduction .introduction-inner .heading-list {
+    position: sticky;
+    top: 110px;
+}
+
+.privacy-introduction .introduction-inner .heading-list .left-heading-list {
+    margin: 0;
+    padding: 0;
+}
+
+.privacy-introduction .introduction-inner .heading-list .left-heading-list li {
+    padding: 0;
+    padding-bottom: 24px;
+    border-left: 2px solid rgba(234, 241, 245, 1);
+}
+
+.privacy-introduction
+    .introduction-inner
+    .heading-list
+    .left-heading-list
+    li:last-child {
+    padding-bottom: 0;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .heading-list
+    .left-heading-list
+    li
+    a {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #6e7377;
+    padding-left: 11px;
+    position: relative;
+    cursor: pointer;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .heading-list
+    .left-heading-list
+    li
+    a.active {
+    color: #131a20;
+    /* border-left: 2px solid #548CA8; */
+}
+
+.privacy-introduction
+    .introduction-inner
+    .heading-list
+    .left-heading-list
+    li
+    a.active::before {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: #548ca8;
+    position: absolute;
+    left: -2px;
+    display: block;
+}
+
+.privacy-introduction .introduction-inner .introduction-main-content {
+    padding-left: 32px;
+    border-left: 1px solid rgba(234, 241, 245, 1);
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction {
+    padding-bottom: 8px;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction
+    h4 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #0e101a;
+    margin-bottom: 12px;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction
+    p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6e7377;
+    margin-bottom: 24px;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction
+    p
+    a {
+    color: #6e7377;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction
+    p
+    span {
+    font-weight: 500;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction
+    ul {
+    padding: 0;
+    padding-bottom: 32px;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction
+    ul
+    li {
+    list-style: circle;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6e7377;
+    padding: 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction
+    ul
+    li:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #6e7377;
+    border-radius: 50px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+.privacy-introduction
+    .introduction-inner
+    .introduction-main-content
+    .introduction:last-child
+    .address-text {
+    margin-bottom: 0;
+}
+
+.privacy-policy {
+    margin-bottom: 60px;
+}
+
+.breadcrumb-div .breadcrumb-nav .MuiBreadcrumbs-li:last-child p {
+    color: #fff;
+    font-weight: 500;
+}
+
+@media (max-width: 992px) {
+    .privacy-introduction .introduction-inner .introduction-main-content {
+        padding-left: 0;
+        border: unset;
+    }
+
+    .privacy-introduction .introduction-inner .heading-list .left-heading-list {
+        margin-bottom: 30px;
+    }
+
+    .privacy-introduction
+        .introduction-inner
+        .heading-list
+        .left-heading-list
+        li
+        a.active {
+        color: #131a20;
+        /* border-left: 2px solid #548CA8; */
+    }
+}
+
+@media (max-width: 767px) {
+    .privacy-policy-section .privacy-policy-inner {
+        height: 140px;
+    }
+
+    .privacy-policy-section .privacy-policy-inner .banner-header {
+        min-height: 140px;
+    }
+
+    .privacy-policy-section .privacy-policy-inner .banner-header h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .privacy-introduction
+        .introduction-inner
+        .heading-list
+        .left-heading-list
+        li
+        a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .privacy-introduction
+        .introduction-inner
+        .heading-list
+        .left-heading-list
+        li {
+        padding-bottom: 15px;
+    }
+
+    .privacy-introduction
+        .introduction-inner
+        .introduction-main-content
+        .introduction
+        h4 {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+
+    .privacy-introduction
+        .introduction-inner
+        .introduction-main-content
+        .introduction
+        p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .privacy-introduction
+        .introduction-inner
+        .introduction-main-content
+        .introduction
+        ul
+        li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .privacy-introduction
+        .introduction-inner
+        .introduction-main-content
+        .introduction
+        ul {
+        padding-bottom: 15px;
+    }
+
+    .privacy-policy {
+        margin-bottom: 30px;
+    }
+}
+
+.breadcrumb-div .breadcrumb-nav .MuiBreadcrumbs-li:last-child p {
+    /* color: #FFF; */
+    font-weight: 500;
+}

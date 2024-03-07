@@ -1,0 +1,233 @@
+/*---------------- project detail page style ----------------*/
+.pagetitle-container h3 {
+    margin-bottom: 0;
+}
+
+.projectDetail-card {
+    background: #FFFFFF;
+    border: 1px solid #C8CFD5;
+    box-sizing: border-box;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+}
+
+.projectDetail-card .MuiCardContent-root {
+    padding: 40px !important;
+}
+
+.projectDetail-card .project-top {
+    display: flex;
+    align-items: center;
+}
+
+.projectDetail-card .icon-container {
+    width: 48px;
+    height: 48px;
+    background: rgba(56, 162, 255, 0.08);
+    border-radius: 50px;
+    vertical-align: middle;
+    display: flex;
+    margin-right: 24px;
+}
+
+.projectDetail-card .icon-container .project-icon {
+    width: 20px;
+    margin: auto;
+}
+
+.projectDetail-card .icon-container p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #6E7377;
+    margin: auto;
+}
+
+.projectDetail-card .project-title p {
+    margin-bottom: 0;
+}
+
+.projectDetail-card .project-title .name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #131A20;
+}
+
+.projectDetail-card .project-title .category {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(52, 52, 52, 0.72);
+}
+
+.projectImage_slider .item {
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: contain;
+}
+
+.project-main-slider .item {
+    display: block !important;
+    margin: auto;
+}
+
+.project-main-slider .slick-prev {
+    left: -15px;
+}
+
+.project-main-slider .slick-next {
+    right: -15px;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F5F8FA;
+    border-radius: 8px;
+    padding: 8px 12px;
+    word-break: break-all;
+}
+
+.project-link img {
+    width: auto;
+}
+
+.project-duration {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343434;
+    opacity: 0.72;
+}
+
+/*--- right container --*/
+.project-detail-page .right-container {
+    background: #FFFFFF;
+    border: 1px solid rgba(99, 180, 253, 0.16);
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 40px 24px;
+    margin-left: 24px;
+}
+
+.right-container .developerInfo h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #343434;
+    margin-bottom: 4px;
+}
+
+.right-container .developerInfo p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    opacity: 0.72;
+}
+
+.right-container .developerInfo p span {
+    position: relative;
+    padding-left: 20px;
+}
+
+.right-container .developerInfo p span::before {
+    content: '';
+    background: #6E7377;
+    position: absolute;
+    left: 8px;
+    width: 4px;
+    height: 4px;
+    top: 50%;
+    border-radius: 100%;
+}
+
+.expDetailList {
+    padding-bottom: 16px !important;
+    border-bottom: 1px solid #131A2014;
+    margin-bottom: 20px !important;
+}
+
+.expDetailList li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.expDetailList li img {
+    width: 16px;
+    margin-right: 12px;
+}
+
+.expDetailList li p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434b8;
+}
+
+.expDetailList li p b {
+    color: #343434;
+}
+
+.right-container .developer-profile-subtitle {
+    margin-top: 4px;
+}
+
+/*------------- certificate table style -------*/
+.project_detail-table.certificate_table .tableDataCell {
+    padding: 8px 12px;
+}
+
+.project_detail-table.certificate_table .tableCellHead:first-child {
+    width: 10%;
+}
+
+.project_detail-table.certificate_table .tableCellHead:last-child {
+    width: 15%;
+}
+
+.certificate_table .certificateImg {
+    max-width: 65px;
+    height: 48px;
+}
+
+.certificate_table .certificateImg img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.project_detail-table.certificate_table .MuiTableRow-root.MuiTableRow-hover:hover {
+    box-shadow: 0px 8px 24px rgb(0 42 112 / 6%);
+    background-color: #fff;
+}
+
+.certificate_table .deleteIconBtn {
+    float: right;
+}
+
+/*------------- certificate table style end -----------*/
+/*---------------- project detail page style end ----------------*/
+
+.agency-size {
+    padding-left: 50px;
+}
+
+.projectImage_slider .slick-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 899px) {
+    .agency-size {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 600px) {
+    .projectImage_slider .item {
+        width: 100% !important;
+    }
+}

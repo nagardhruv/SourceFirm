@@ -1,0 +1,258 @@
+.dashboard-container {
+    /* margin-top: 20px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px; */
+    padding-top: 40px;
+}
+
+.dashboard-profile-section {
+    position: relative;
+}
+
+.dashboard-profile-sticky {
+    position: sticky;
+    top: 120px;
+    display: block;
+}
+
+.dashboard-profile {
+    padding: 24px;
+    background: #476072;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.dashboard-profile .profile-image {
+    width: 100px;
+    height: 100px;
+    margin: auto auto 16px;
+}
+
+.dashboard-profile .id {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.dashboard-profile .email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* text-transform: lowercase; */
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.chatBtn {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border-radius: 6px !important;
+    color: #fff !important;
+    margin-top: 16px !important;
+    min-width: 140px !important;
+    padding: 11px 12px !important;
+    font-size: 14px !important;
+    font-family: "Gordita" !important;
+    text-transform: capitalize !important;
+}
+
+.dashboard-agencyDetails {
+    padding: 24px 24px 20px;
+    background: #476072;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    color: #fff !important;
+}
+
+.profile-divider {
+    border-color: rgb(255 255 255 / 12%) !important;
+    margin: 12px 0px !important;
+}
+
+.dashboard-agencyDetails .title h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    opacity: 0.92;
+}
+
+.dashboard-agencyDetails .formControl {
+    margin-bottom: 16px !important;
+}
+
+.dashboard-agencyDetails .formControl label {
+    font-size: 14px;
+    color: rgb(255 255 255 / 72%) !important;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.dashboard-agencyDetails .formControl .value {
+    white-space: break-spaces;
+    word-break: break-word;
+}
+
+.agency-developer-card_inner .discription {
+    word-break: break-all;
+}
+
+.agency-developer-card_inner .discription p {
+    margin-bottom: 0;
+}
+
+.dashboard-agencyDetails .skillList {
+    padding: 4px 0;
+}
+
+.dashboard-agencyDetails .skillList .skillList-item {
+    background: rgba(136, 136, 136, 0.16);
+}
+
+.dashboard-agencyDetails .skillList .skillList-item span {
+    color: rgba(255, 255, 255, 0.64);
+}
+
+/*--------------- Dashboard container style -------------*/
+.dashboard-wrapper {
+    padding-left: 40px;
+}
+
+.dashboard-wrapper .filter-container {
+    box-shadow: 0px 4px 16px rgba(22, 75, 122, 0.08) !important;
+    background: #ffffff;
+    border-radius: 12px !important;
+    padding: 24px 24px 0px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.dashboard-wrapper .filter-container h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #0e101a;
+    margin-bottom: 6px;
+}
+
+.dashboard-wrapper .manage-developer-paper {
+    margin-top: 24px;
+}
+
+.formGrid-inner.profileTypeFilter {
+    width: 60%;
+}
+
+.formGrid-inner.availabilityFilter {
+    width: 38%;
+}
+
+.formGrid-inner.profileTypeFilter .formControl .inputField.selectTextField,
+.formGrid-inner.availabilityFilter .formControl .inputField.selectTextField {
+    margin-top: 0px;
+    background: #f6f8fa;
+    border: none;
+}
+
+.candidate-profile .left-profile-container {
+    background-color: #f6f8fa;
+}
+
+.my-request-main-section {
+    background-color: #fff;
+    padding: 1px 16px 24px 16px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+/*-------------------------------------------*/
+/*-------------- responsive -----------------*/
+@media (max-width: 899px) {
+    .dashboard-wrapper {
+        padding-left: 0px;
+    }
+
+    .topcandidate-heading.reject-btn-right {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.website-a-tag {
+    color: #fff;
+    /* text-decoration: none; */
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 600px) {
+    .dashboard-wrapper .filter-container {
+        margin-top: 16px;
+    }
+
+    .formGrid-inner.profileTypeFilter {
+        width: 100%;
+    }
+
+    .formGrid-inner.availabilityFilter {
+        width: 100%;
+    }
+
+    .formGrid-inner.availabilityFilter {
+        display: block;
+    }
+
+    .agency-developer-card .agency-exp-info {
+        padding-top: 10px;
+    }
+
+    .dashboard-profile .profile-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .request-main-profile {
+        padding-top: 5px !important;
+    }
+
+    .my-request-main-section {
+        background-color: #fff;
+        padding: 1px 16px 16px 16px;
+        border-radius: 10px;
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 768px) {
+    .dashboard-profile {
+        max-width: 70%;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 768px) {
+    .dashboard-profile {
+        max-width: 70%;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+}
+
+.chat-blank-page {
+    margin-top: 40px;
+}
+
+.candidate-request-profile {
+    padding-top: 24px;
+}
+
+.request-main-profile {
+    padding-top: 16px;
+}

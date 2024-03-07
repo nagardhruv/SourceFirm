@@ -1,0 +1,630 @@
+/*------ font-face ---------*/
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-BoldItalic.eot");
+    src: url("../fonts/gordita/Gordita-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-BoldItalic.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-BoldItalic.woff") format("woff"),
+        url("../fonts/gordita/Gordita-BoldItalic.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-BoldItalic.svg#Gordita-BoldItalic") format("svg");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-Black.eot");
+    src: url("../fonts/gordita/Gordita-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-Black.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-Black.woff") format("woff"),
+        url("../fonts/gordita/Gordita-Black.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-Black.svg#Gordita-Black") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-BlackItalic.eot");
+    src: url("../fonts/gordita/Gordita-BlackItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-BlackItalic.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-BlackItalic.woff") format("woff"),
+        url("../fonts/gordita/Gordita-BlackItalic.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-BlackItalic.svg#Gordita-BlackItalic") format("svg");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-LightItalic.eot");
+    src: url("../fonts/gordita/Gordita-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-LightItalic.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-LightItalic.woff") format("woff"),
+        url("../fonts/gordita/Gordita-LightItalic.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-LightItalic.svg#Gordita-LightItalic") format("svg");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-Light.eot");
+    src: url("../fonts/gordita/Gordita-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-Light.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-Light.woff") format("woff"),
+        url("../fonts/gordita/Gordita-Light.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-Light.svg#Gordita-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-Bold.eot");
+    src: url("../fonts/gordita/Gordita-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-Bold.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-Bold.woff") format("woff"),
+        url("../fonts/gordita/Gordita-Bold.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-Bold.svg#Gordita-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-Medium.eot");
+    src: url("../fonts/gordita/Gordita-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-Medium.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-Medium.woff") format("woff"),
+        url("../fonts/gordita/Gordita-Medium.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-Medium.svg#Gordita-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-MediumItalic.eot");
+    src: url("../fonts/gordita/Gordita-MediumItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-MediumItalic.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-MediumItalic.woff") format("woff"),
+        url("../fonts/gordita/Gordita-MediumItalic.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-MediumItalic.svg#Gordita-MediumItalic") format("svg");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-RegularItalic.eot");
+    src: url("../fonts/gordita/Gordita-RegularItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-RegularItalic.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-RegularItalic.woff") format("woff"),
+        url("../fonts/gordita/Gordita-RegularItalic.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-RegularItalic.svg#Gordita-RegularItalic") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-Thin.eot");
+    src: url("../fonts/gordita/Gordita-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-Thin.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-Thin.woff") format("woff"),
+        url("../fonts/gordita/Gordita-Thin.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-Thin.svg#Gordita-Thin") format("svg");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-Regular.eot");
+    src: url("../fonts/gordita/Gordita-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-Regular.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-Regular.woff") format("woff"),
+        url("../fonts/gordita/Gordita-Regular.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-Regular.svg#Gordita-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/gordita/Gordita-ThinItalic.eot");
+    src: url("../fonts/gordita/Gordita-ThinItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-ThinItalic.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-ThinItalic.woff") format("woff"),
+        url("../fonts/gordita/Gordita-ThinItalic.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-ThinItalic.svg#Gordita-ThinItalic") format("svg");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita Ultra";
+    src: url("../fonts/gordita/Gordita-UltraItalic.eot");
+    src: url("../fonts/gordita/Gordita-UltraItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-UltraItalic.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-UltraItalic.woff") format("woff"),
+        url("../fonts/gordita/Gordita-UltraItalic.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-UltraItalic.svg#Gordita-UltraItalic") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gordita Ultra";
+    src: url("../fonts/gordita/Gordita-Ultra.eot");
+    src: url("../fonts/gordita/Gordita-Ultra.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gordita/Gordita-Ultra.woff2") format("woff2"),
+        url("../fonts/gordita/Gordita-Ultra.woff") format("woff"),
+        url("../fonts/gordita/Gordita-Ultra.ttf") format("truetype"),
+        url("../fonts/gordita/Gordita-Ultra.svg#Gordita-Ultra") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*------ font-face ---------*/
+body {
+    font-family: "Gordita";
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+.btn-fill {
+    min-width: 120px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+/* .MuiButtonBase-root-MuiButton-root {
+    background-color: #548CA8 !important;
+    border-radius: 8px !important;
+    min-width: 140px !important;
+    padding: 11px 12px !important;
+    font-size: 14px;
+    font-family: 'Gordita' !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+} */
+.primaryButton {
+    background-color: #548ca8 !important;
+    border-radius: 8px !important;
+    min-width: 140px !important;
+    padding: 11px 12px !important;
+    font-size: 14px !important;
+    font-family: "Gordita" !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.main-content {
+    padding-top: 80px;
+    background: #f9fcff;
+    padding-bottom: 40px;
+    min-height: calc(100vh - 372px);
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.MuiTypography-root {
+    font-family: "Gordita" !important;
+}
+
+/* .checkboxInput input{
+
+} */
+/*-------------- custom editor style -------------*/
+.editorBox .quill {
+    margin-top: 6px;
+}
+
+.editorBox .ql-toolbar.ql-snow {
+    border-bottom: 0px;
+    border: 1px solid #c8cfd5;
+    border-radius: 8px 8px 0 0;
+    background: #ecf6ff;
+}
+
+.editorBox .ql-container {
+    height: auto;
+    min-height: 100px;
+}
+
+.editorBox .ql-container.ql-snow {
+    border: 1px solid #c8cfd5;
+    border-radius: 0 0 8px 8px;
+}
+
+.editorBox .ql-container .ql-editor {
+    font-family: "Gordita" !important;
+    font-size: 16px;
+}
+
+/**-------------------------------------------------------------------**/
+/**------------------- responsive style ------------**/
+/**-------------------------------------------------------------------**/
+
+@media (min-width: 1200px) {
+    .MuiContainer-root {
+        max-width: 1160px !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .MuiContainer-root {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+.captchContainer {
+    height: 69px;
+    left: 50.83%;
+    right: 30.28%;
+    top: 620px;
+    background: #548ca80f;
+    border-radius: 8px;
+}
+
+.captcha {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.branch-container.active,
+.branch-container .active {
+    border: 2px solid #08d6a8;
+}
+
+/* readMore css start based on class */
+span.read-more-open-39A1FF {
+    color: #548ca8;
+    word-break: keep-all !important;
+}
+
+span.read-more-close-39A1FF {
+    color: #548ca8;
+}
+
+/* width fit-content for button class based css start */
+.width-fitContent {
+    width: fit-content;
+}
+
+/* width fit-content for button class based css end */
+/*----------- pagination style --------------*/
+.pagination-container {
+    margin-top: 24px;
+}
+
+.pagination-container .pagination-inner {
+    margin: auto;
+}
+
+.pagination-container .MuiPaginationItem-root {
+    color: #6e7377;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    line-height: 2.143;
+}
+
+.pagination-container .MuiPaginationItem-previousNext {
+    background-color: #fff;
+    border: none;
+}
+
+.pagination-container .MuiPaginationItem-root.Mui-selected {
+    color: #fff;
+    background: #548ca8;
+    box-shadow: 0px 8px 24px rgba(57, 129, 247, 0.32);
+    border-radius: 8px;
+}
+
+.pagination-container .MuiPaginationItem-root:hover {
+    background: #548ca89e !important;
+}
+
+.MuiAutocomplete-popper,
+.MuiPickersPopper-root,
+.MuiCalendarPicker-root,
+.MuiPopperUnstyled-root,
+.MuiPopper-root {
+    z-index: 300;
+}
+
+.chat-header-date {
+    z-index: 1300 !important;
+}
+
+.chat-name-tooltip {
+    z-index: 1300 !important;
+}
+
+.chat-header-date .MuiPickersArrowSwitcher-spacer {
+    width: 10px;
+}
+
+/*----------- pagination style end--------------*/
+@media (max-width: 480px) {
+    .primaryButton {
+        min-width: 120px !important;
+    }
+}
+
+@media (max-width: 1180px) {
+    .cursor-pointer {
+        cursor: unset;
+    }
+}
+
+@media (max-width: 899px) {
+    .chat-main .chat-msg-wrapper {
+        height: calc(100vh - 320px);
+    }
+}
+
+@media (max-width: 767px) {
+    .chat-typing-container .MuiInputBase-formControl {
+        padding: 10px 10px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .chat-main {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1300;
+        border-radius: 0;
+    }
+
+    .chat-main .chat-msg-wrapper {
+        height: calc(100vh - 135px);
+        overflow: hidden;
+    }
+
+    .chat-msg-container .right-chat .chat-box .right-chat-block {
+        border-radius: 10px 10px 0px 10px !important;
+        padding: 4px 14px 5px;
+    }
+
+    .chat-msg-container .left-chat .chat-box .left-chat-block {
+        border-radius: 10px 10px 10px 0px !important;
+        padding: 4px 14px 5px !important;
+    }
+
+    .chat-msg-container .right-chat .chat-box .right-chat-block p span {
+        font-size: 14px;
+        line-height: 22px;
+        word-break: break-all;
+    }
+
+    .chat-msg-container .left-chat .chat-box .left-chat-block p span {
+        font-size: 14px;
+        line-height: 22px;
+        word-break: break-all;
+    }
+
+    .chat-bg-content p {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .chat-msg-container .chat-box .chat-time {
+        white-space: nowrap;
+        font-size: 8px;
+    }
+
+    .chat-profile .profile-img-container {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        min-width: 35px;
+    }
+
+    .profile-title .id {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .chat-back-btn {
+        margin-left: -10px;
+    }
+
+    #date-label {
+        z-index: 10 !important;
+    }
+
+    .primary-section .time {
+        white-space: nowrap;
+    }
+
+    .chat-list ul li {
+        background-color: #fff;
+    }
+
+    .chat-list ul li.active .primary-section .chat-id,
+    .chat-list ul li:hover .primary-section .chat-id {
+        color: #548ca8;
+    }
+
+    .chat-list ul li.active .secondary-section .chat-msg,
+    .chat-list ul li:hover .secondary-section .chat-msg {
+        color: #548ca8;
+    }
+
+    .chat-list ul li.active .primary-section .time,
+    .chat-list ul li:hover .primary-section .time {
+        color: #548ca8;
+    }
+
+    .chat-list ul li:hover,
+    .chat-list ul li:focus,
+    .chat-list ul li.active {
+        background-color: #fff;
+    }
+
+    .chat-list ul li {
+        border-bottom: 4px solid #f9fcff;
+    }
+
+    .footer-container {
+        padding: 15px 16px !important;
+        margin: 0 !important;
+        border-top: 2px solid #f9fcff;
+    }
+
+    .chat-msg-container {
+        padding: 0px 12px 0px 12px;
+    }
+
+    .attach-Btn {
+        height: 20px;
+        width: 35px;
+        min-width: 35px;
+        margin-right: 5px;
+    }
+
+    .chat-typing-container {
+        width: 75%;
+        /* position: fixed;
+        top: auto; */
+        line-height: 16px;
+        overflow-y: scroll;
+        max-height: 55px;
+    }
+
+    .chat-footer .chat-action .send-Btn {
+        margin-left: 16px;
+    }
+
+    /* .dashboard-container {
+        padding-top: 15px;
+    } */
+
+    .captchContainer {
+        height: auto;
+        width: 100% !important;
+    }
+
+    .chatPreview-Dailog .MuiDialog-paper {
+        position: relative;
+        z-index: 999999;
+    }
+}
+
+.aboutus-section .main-slider .source-slider .bottom-linked-img img {
+    opacity: 0.5 !important;
+}
+
+.aboutus-section .right-slider .main-profile-content .bottom-linked-img img {
+    opacity: 0.5 !important;
+}
+
+.aboutus-section .main-slider .source-slider .bottom-linked-img img:hover {
+    opacity: 1 !important;
+}
+
+.aboutus-section .right-slider .main-profile-content .bottom-linked-img img:hover {
+    opacity: 1 !important;
+}
+
+@media (max-width: 767px) {
+    .chat-main .chat-msg-wrapper {
+        min-height: unset !important;
+        height: 100% !important;
+        padding-bottom: 160px;
+    }
+
+    .footer-container {
+        background-color: #fff;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    /* .editProject-container,
+    .profile-inner {
+        min-height: unset !important;
+    }
+    */
+}
+
+.elipse-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.elipse-text p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.loading {
+    color: rgb(0 0 0 / 0%) !important;
+}
+
+.loading img {
+    visibility: hidden;
+}
+
+.copyIcon {
+    height: 15px;
+}

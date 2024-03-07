@@ -1,0 +1,117 @@
+.project-card {
+    background: #FFFFFF;
+    border: 1px solid #EAF1F5;
+    box-sizing: border-box;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+    height: 100%;
+}
+
+.project-card:hover {
+    box-shadow: 0px 16px 24px rgba(0, 42, 112, 0.06) !important;
+}
+
+.project-card .project-top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(14 16 26 / 8%);
+    padding-bottom: 14px;
+}
+
+.project-card .icon-container {
+    width: 48px;
+    height: 48px;
+    background: #F5F8FA;
+    border-radius: 50px;
+    vertical-align: middle;
+    display: flex;
+    margin-right: 24px;
+}
+
+.project-card .icon-container .project-icon {
+    width: 20px;
+    margin: auto;
+}
+
+.project-card .icon-container p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #6E7377;
+    margin: auto;
+}
+
+.project-card .project-title p {
+    margin-bottom: 0;
+}
+
+.project-card .project-title .name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #6E7377;
+}
+
+.project-card .project-title .category {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(52, 52, 52, 0.72);
+}
+
+.project-card .skillset .developer-profile-subtitle {
+    margin-top: 16px;
+}
+
+.project-card .MuiCardContent-root {
+    padding-bottom: 4px !important;
+}
+
+.project-card:hover .project-title .name {
+    color: #131A20;
+}
+
+.project-card .deleteIconBtn {
+    opacity: 0;
+}
+
+.project-card:hover .deleteIconBtn,
+.project-card:focus .deleteIconBtn {
+    opacity: 1;
+}
+
+/*-------- updated design style ---------------*/
+.project-card .about_project {
+    padding-top: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(14, 16, 26, 0.64);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.project-card .duration-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.project-card .duration-details p {
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(52 52 52 / 72%);
+}
+
+@media(max-width:600px) {
+    .project-card .icon-container {
+        width: 35px;
+        height: 35px;
+        margin-right: 12px;
+        margin-bottom: 6px;
+    }
+}

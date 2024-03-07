@@ -1,0 +1,213 @@
+.chatPreview-Dailog {
+    background: transparent;
+    box-shadow: none;
+    height: auto;
+}
+
+.chatPreview-Dailog .MuiDialog-paper {
+    background: transparent;
+    height: auto;
+    box-shadow: none;
+    overflow: visible;
+    position: unset;
+}
+
+.chatPreview-Dailog .MuiBackdrop-root {
+    backdrop-filter: blur(2px);
+}
+
+.docPreviewContainer {
+    background: #fff;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.docPreviewContainer .doc-inner {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.docPreviewContainer .doc-inner .doc-icons {
+    width: auto;
+    position: relative;
+    height: 80px;
+}
+
+.docPreviewContainer .doc-inner .doc-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #131A20;
+}
+
+.docPreviewContainer .doc-inner .doc-size {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3980F5;
+}
+
+.imagePreviewContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.chatPreview-Dailog .MuiIconButton-root,
+.chatPreview-Dailog .MuiIconButton-root:hover {
+    background-color: transparent;
+    color: #fff !important;
+
+}
+
+.previewDocSliderItem,
+.thumbnail-bg {
+    background: #fff;
+    width: 116px !important;
+    height: 96px !important;
+    border-radius: 8px !important;
+    padding: 12px;
+    display: block;
+    margin: 0 8px !important;
+}
+
+.previewDocSliderItem .file-icon {
+    width: auto;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.previewDocSliderItem .fileDetail .fileName {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6E7377;
+    width: 132px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.previewDocSliderItem .fileDetail .fileSize {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: #3980F5;
+}
+
+.captionContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.48) 100%);
+    color: #fff;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.captionContainer .caption-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.captionContainer .captionContent {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.downloadIconBtn {
+    width: 32px;
+    height: 32px;
+    background: rgb(19 26 32 / 24%) !important;
+}
+
+.downloadIconBtn img {
+    width: 16px;
+}
+
+/* 03/08-2022 */
+
+.chatPreview-Dailog .content .thumbnail-section {
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    height: auto;
+    justify-content: center;
+
+}
+
+.chatPreview-Dailog .content .thumbnail-section .thumbnail-bg {
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.chatPreview-Dailog .content .thumbnail-section::-webkit-scrollbar {
+    height: 5px;
+    border-radius: 30px;
+}
+
+/* Track */
+.chatPreview-Dailog .content .thumbnail-section::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 50px;
+}
+
+
+
+
+/* Handle */
+.chatPreview-Dailog .content .thumbnail-section::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 50px;
+}
+
+.chatPreview-Dailog .content .thumbnail-section::-webkit-scrollbar {
+    height: 5px;
+    border-radius: 50px;
+}
+
+.chatPreview-Dailog .content .thumbnail-section::-webkit-scrollbar-thumb {
+    background: #548CA8;
+    border-radius: 50px;
+}
+
+.chatPreview-Dailog .MuiSvgIcon-root {
+    font-size: 30px !important;
+}
+
+/* .chatPreview-Dailog .cgtBDd {
+    height: 100%;
+} */
+
+.chatPreview-Dailog .modal-title .MuiIconButton-root {
+    top: 0px;
+    z-index: 9;
+    right: 10px;
+}
+
+@media(max-width: 600px) {
+    .chatPreview-Dailog .modal-title .MuiIconButton-root {
+        right: 0;
+    }
+
+    .chatPreview-Dailog .modal-title {
+        padding-bottom: 24px;
+    }
+
+    .chatPreview-Dailog .content .thumbnail-section {
+        justify-content: start;
+    }
+
+    .chatPreview-Dailog .MuiSvgIcon-root {
+        font-size: unset !important;
+    }
+}

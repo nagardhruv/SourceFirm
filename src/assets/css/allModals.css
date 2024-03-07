@@ -1,0 +1,1234 @@
+.changePassword_modal .MuiBackdrop-root,
+.approval_modal .MuiBackdrop-root,
+.update_modal .MuiBackdrop-root,
+.dynamic-dialog .MuiBackdrop-root,
+.add_project-modal .MuiBackdrop-root {
+    backdrop-filter: blur(2px);
+}
+
+/*------------- approval modal  ----------------*/
+.approval_modal .MuiDialog-paper {
+    background: #f8f9f9;
+    border-radius: 12px;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.approval_modal .modal-title {
+    padding: 40px;
+}
+
+.approval_modal .title-img {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+.approval_modal .content {
+    padding: 0 40px 16px !important;
+    text-align: center;
+}
+
+.approval_modal .content h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #131a20;
+    margin-top: 0;
+}
+
+.approval_modal .content span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #343434;
+}
+
+.approval_modal .bottom {
+    padding-bottom: 40px !important;
+}
+
+/*Dynamic Dialog*/
+.dynamic-dialog .modal-title {
+    padding: 40px 40px 0;
+}
+
+.dynamic-dialog .title-img {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+.dynamic-dialog .content {
+    padding: 24px 24px 16px !important;
+}
+.dynamic-dialog .content.center {
+    text-align: center;
+}
+
+.dynamic-dialog .content.left {
+    text-align: left;
+}
+
+.dynamic-dialog .content.right {
+    text-align: right;
+}
+
+.dynamic-dialog .content h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #131a20;
+    margin-top: 0;
+}
+
+.dynamic-dialog .content span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6e7377;
+}
+
+.dynamic-dialog .bottom {
+    display: block;
+    text-align: end;
+    padding: 8px 24px 24px !important;
+}
+.dynamic-dialog .bottom.single {
+    display: block;
+    text-align: center;
+    padding: 8px 54px 40px !important;
+}
+
+.bottom .modalBtn {
+    background: #548ca8;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: auto;
+    text-transform: unset !important;
+}
+
+.update_modal .modal-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #131a20;
+    padding-bottom: 24px;
+}
+
+.update_modal .bottom {
+    margin: auto;
+}
+
+.update_modal .continueBtn {
+    background: rgba(57, 161, 255, 0.16) !important;
+    color: #548ca8;
+}
+
+.formControl label:focus {
+    color: #131a20 !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #131a20 !important;
+}
+
+/*------------- approval modal end----------------*/
+/*------------- changePassword modal ----------------*/
+.changePassword_modal .MuiDialog-paper {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 480px;
+}
+
+.changePassword_modal .modal-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #131a20;
+    padding: 40px 54px 16px;
+}
+
+.changePassword_modal .content {
+    padding: 0px 54px 16px !important;
+}
+
+.changePassword_modal .bottom {
+    display: block;
+    text-align: end;
+    padding: 8px 54px 40px !important;
+}
+
+/*dynamic dialog*/
+.dynamic-dialog .MuiDialog-paper {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 480px;
+}
+
+.cancelBtn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6e7377 !important;
+    padding: 0 24px 0 0 !important;
+    font-family: "Gordita";
+    text-transform: capitalize !important;
+    cursor: pointer;
+}
+
+/*------------- changePassword modal end----------------*/
+.bottom .modalBtn.logoutBtn {
+    background: #ff5e7b !important;
+}
+
+/*------------- add project modal ----------------*/
+.add_project-modal .MuiDialog-paper {
+    background: #fff;
+    border-radius: 12px;
+    min-width: 765px;
+}
+
+.add_project-modal .modal-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 40px 40px 16px;
+    color: #131a20;
+}
+
+.add_project-modal .bottom {
+    padding-bottom: 40px !important;
+}
+
+.add_project-modal .content {
+    padding: 0 40px !important;
+}
+
+.add-image-container {
+    margin-bottom: 16px;
+}
+
+.add-image-container .label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #131a20;
+    opacity: 0.72;
+    margin-bottom: 0;
+}
+
+.add-image-container .add-imageList {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+}
+
+.add-image-container .add-imageList .item {
+    width: 165px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 16px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+.add-image-container .add-imageList .item .imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(106, 140, 170, 0.72);
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.add-image-container .add-imageList .item .imageOverlay img {
+    width: 14px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(10);
+    object-fit: contain;
+}
+
+.add-image-container .add-imageList .item:hover .imageOverlay {
+    opacity: 1;
+}
+
+.add-image-container .add-imageList .item img {
+    height: 100%;
+    /* width: auto; */
+    object-fit: contain;
+}
+
+.add-image-container .add-imageList .add-imageBox {
+    width: 165px;
+    height: 120px;
+    border: 1px dashed #c8cfd5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-image-container .add-imageList .add-imageBox button,
+.add-image-container .add-imageList .add-imageBox span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #6e7377;
+    font-family: "Gordita";
+    text-align: center;
+}
+
+.add_project-modal .bottom {
+    display: block;
+    text-align: end;
+    padding: 8px 98px 40px !important;
+}
+
+.adornment-icon {
+    cursor: pointer;
+    padding: 8px;
+    height: initial !important;
+}
+
+/*------------- add project modal end----------------*/
+/*------------ certificateCard style-----------------*/
+
+.certificateCard {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.certificateCard:last-child {
+    margin-bottom: 0px;
+}
+
+.certificateCard .certificateImg {
+    padding: 8px;
+    background: #ecf6ff;
+    border-radius: 12px;
+    margin-right: 16px;
+    cursor: pointer;
+    height: 124px;
+}
+
+.certificateCard .certificateImg img {
+    width: 164px;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.certificateCard .content {
+    font-family: "Gordita";
+}
+
+.certificateCard .content .certificate-title {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
+.certificateCard .content .certificate-title p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #131a20;
+    margin-bottom: 0;
+}
+
+.certificateCard .content .certificate-title p.date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6e7377;
+    margin: 0 12px;
+}
+
+.certificateCard .content .about-certi p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(14, 16, 26, 0.72);
+}
+
+/*------------ certificateCard style end-----------------*/
+/*------------view certificate style --------------*/
+.certificateCard.certificateView {
+    display: block;
+    margin-bottom: 40px !important;
+}
+
+.certificateCard.certificateView .certificateImg {
+    margin-right: 0;
+    height: 460px;
+}
+
+.certificateView .content.detail {
+    padding: 0 !important;
+}
+
+.certificateCard.certificateView .certificateImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.certificateView .certificate-title p.date {
+    margin: 0 12px 0 auto !important;
+}
+
+.certificateView .certificate-title {
+    margin: 12px 0;
+}
+
+.certificateView .docCertificateView .idProof-name {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.certificateView .docCertificateView .idProof-name span {
+    width: 40px;
+    height: 40px;
+    background: rgba(106, 140, 170, 0.16);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.certificateView .docCertificateView .idProof-name span img {
+    width: 22px;
+    margin: auto;
+}
+
+.certificateView .docCertificateView .idProof-name .downloadBtn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #548ca8;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+/*------------view certificate style end--------------*/
+/*------------- project detail dialog style ------------*/
+.add_project-modal .projectDetail-card {
+    border: unset;
+    background: unset;
+}
+
+.add_project-modal.projectDetail-modal .content {
+    padding: 0 !important;
+}
+
+.add_project-modal.projectDetail-modal .modal-title {
+    padding: 40px 40px 16px;
+}
+
+.projectDetail-modal .projectDetail-card .MuiCardContent-root {
+    padding: 24px 40px !important;
+}
+
+/*------------- agency request modal style-------------*/
+.agency-request_modal .modal-title {
+    padding: 24px;
+}
+
+.agency-request_modal .content {
+    padding: 0px 24px 24px !important;
+}
+
+.agency-request_modal .request-subtitle {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.agency-request_modal .action-div {
+    padding: 0 24px 0 !important;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.request_notification-modal .title-img {
+    width: 120px;
+    height: auto;
+}
+
+/*------------- agency request modal style end-------------*/
+
+.croppedImg {
+    margin-top: 12px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.test {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.crop-container {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    right: 30px;
+    bottom: 80px;
+}
+
+.image-cropper-modal .controls {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.slider {
+    padding: 22px 0px;
+}
+
+/* 05/07/2022 pratik */
+
+.image-cropper-modal .MuiDialog-paper {
+    height: 600px;
+    overflow-y: hidden;
+}
+
+.image-cropper-modal .crop-container {
+    margin-bottom: 40px;
+}
+
+.image-cropper-modal .MuiButton-root {
+    margin: 15px 30px !important;
+    color: #fff;
+}
+
+.image-cropper-modal .reactEasyCrop_Contain {
+    width: auto;
+}
+
+/* cancel request model popup */
+
+.cancle-request-model .modal-title {
+    padding: 24px 24px 14px 24px;
+}
+
+.cancle-request-model .modal-title h4 {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 900;
+    color: #131a20;
+    margin: 0;
+}
+
+.cancle-request-model .css-123knc6-MuiButtonBase-root-MuiIconButton-root {
+    top: 24px;
+    right: 16px;
+}
+
+.cancle-request-model .content {
+    text-align: left;
+    padding: 0 24px 24px 24px !important;
+}
+
+.cancle-request-model .content h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #131a20;
+}
+
+.cancle-request-model .content .subTitle {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #131a20;
+    margin: 0;
+}
+
+.cancle-request-model .content .inner-content {
+    padding: 16px;
+    background: #fff5f7;
+    border-radius: 6px;
+    border-left: 4px solid #f90e38;
+}
+
+.cancle-request-model .bottom {
+    text-align: end;
+    display: block;
+    padding: 16px 24px 24px !important;
+}
+
+.cancle-request-model .bottom .cancelBtn {
+    text-decoration: none;
+}
+
+/* offer accept modal */
+.offer-accept-model .model-top-heading {
+    padding: 24px 0 24px 24px;
+}
+
+.offer-accept-model .model-top-heading button {
+    top: 24px;
+    right: 24px;
+}
+
+.offer-accept-model .model-top-heading h3 {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 900;
+    color: #0e101a;
+    margin: 0;
+}
+
+.offer-accept-model .offer-content {
+    padding: 0 24px !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.offer-accept-model .open-job_post {
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.offer-accept-model .offer-content .inner-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.offer-accept-model .offer-content .inner-content .offer-profile-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+}
+
+.offer-accept-model .offer-content .inner-content .offer-profile-img img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.offer-accept-model .offer-content .inner-content .offer-profile-text h5 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #0e101a;
+    margin: 0;
+}
+
+.offer-accept-model .offer-content .inner-content .offer-profile-text p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(14, 16, 26, 0.64);
+}
+
+.offer-accept-model .offer-content .inner-content .offer-profile-text {
+    padding-left: 12px;
+}
+
+.offer-accept-model .offer-content .view-profile-link .profile-update-link {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    color: #6a8caa;
+}
+
+.offer-accept-model .interview-text .center-content {
+    padding: 0 24px 0px 24px !important;
+}
+
+.offer-accept-model .interview-text .center-content .interview-data {
+    background: #f6f8fa;
+    border-radius: 12px;
+    padding: 24px 24px 0 24px;
+}
+
+/* .select-option-data .date-wrapper {
+    margin-top: 12px;
+} */
+
+.select-option-data .date-wrapper .MuiTextField-root {
+    width: 100%;
+}
+
+.offer-accept-model .interview-text .center-content .date-time-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.offer-accept-model
+    .interview-text
+    .center-content
+    .schedule-interview-main-box
+    .formControl {
+    margin-bottom: 12px !important;
+}
+
+.select-option-data .MuiFormControl-root {
+    width: 100%;
+}
+
+.select-option-data .date-wrapper button {
+    right: 10px;
+}
+
+.select-option-data .formControl .MuiAutocomplete-inputRoot {
+    /* border: 1px solid rgba(57, 129, 247, 0.32) !important; */
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.select-option-data .formControl .MuiOutlinedInput-notchedOutline {
+    border: unset !important;
+}
+
+.date-time-content
+    .date-wrapper
+    .MuiFormControl-root
+    .MuiInputBase-formControl {
+    border: 1px solid #c8cfd5 !important;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.date-time-content
+    .date-wrapper
+    .MuiFormControl-root
+    .MuiInputBase-formControl:focus {
+    border: 1px solid rgba(57, 129, 247, 0.32) !important;
+}
+
+.date-time-content
+    .date-wrapper
+    .MuiFormControl-root
+    .MuiOutlinedInput-notchedOutline {
+    border: unset;
+}
+
+.select-option-data .formControl .text-area-content {
+    padding: 16px;
+    resize: none;
+    background: #ffffff;
+    border: 1px solid rgba(57, 129, 247, 0.32);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.select-option-data .formControl .input-content {
+    border: 1px solid rgba(57, 129, 247, 0.32);
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.select-option-data .formControl .input-content input {
+    padding: 10px 12px;
+}
+
+.offer-accept-model .last-content-btn {
+    display: block;
+    text-align: end;
+    padding: 24px 48px 24px 0 !important;
+}
+
+.offer-accept-model .interview-text {
+    padding: 0 !important;
+}
+
+.offer-accept-model .MuiDialog-paper {
+    background-color: #fff;
+}
+
+.offer-accept-model .job-post-id {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+    padding-left: 85px;
+}
+
+.offer-accept-model .job-post-id p {
+    padding: 0 14px;
+    color: #131a20;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    position: relative;
+}
+
+.offer-accept-model .job-post-id p:first-child::before {
+    content: "";
+    background-color: #6e7377;
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: absolute;
+    right: -4px;
+    top: 6px;
+    bottom: 0;
+}
+
+.offer-accept-model .interview-data-text {
+    padding: 0 24px;
+}
+
+.offer-accept-model .interview-data-text .interview-heading h4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #0e101a;
+}
+
+.offer-accept-model .interview-data-text .interview-heading p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(14, 16, 26, 0.72);
+    margin-bottom: 18px;
+    padding-left: 30px;
+    margin-top: 12px;
+    word-break: break-word;
+}
+
+.offer-accept-model .interview-data-text .interview-heading h4 img {
+    width: auto;
+    padding-right: 15px;
+}
+
+.offer-accept-model .interview-body-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.offer-accept-model .interview-body-box .link-btn {
+    background-color: unset;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+    width: unset;
+    min-width: unset;
+    box-shadow: none;
+    outline: none;
+}
+
+.offer-accept-model .interview-body-box .link-btn img {
+    width: auto;
+}
+
+.offer-accept-model .interview-body-box .interview-copy-icon img {
+    width: auto;
+    padding-right: 10px;
+}
+
+.offer-accept-model .interview-body-box a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 12px;
+    background: #f5f8fa;
+    border-radius: 6px;
+    color: #6a8caa;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.offer-accept-model .interview-body-box a img {
+    width: auto;
+}
+
+.offer-accept-model .interview-last-content {
+    padding: 24px !important;
+}
+
+.offer-accept-model .profile-coin {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-top: -120px;
+    text-align: center;
+}
+
+.offer-accept-model .offer-modal-heading {
+    padding: 74px 30px 0 30px !important;
+    text-align: center;
+}
+
+.offer-accept-model .offer-btn-cancel {
+    display: block;
+    text-align: center;
+    padding: 6px 24px 24px 24px !important;
+}
+
+.offer-accept-model .offer-btn-cancel .cancelBtn {
+    display: block;
+    padding: 0 !important;
+    padding-top: 16px !important;
+}
+
+.offer-accept-model .profile-coin img {
+    width: auto;
+}
+
+.select-option-data .date-wrapper .formControl {
+    margin-top: 8px;
+}
+
+/* Responsive design */
+@media only screen and (min-width: 480px) and (max-width: 899px) {
+    .add_project-modal .MuiDialog-paper {
+        min-width: unset;
+        width: 100%;
+        margin: 16px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .offer-accept-model .model-top-heading {
+        padding: 16px 0 15px 16px;
+    }
+
+    .offer-accept-model .model-top-heading h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .offer-accept-model .offer-content .inner-content .offer-profile-img img {
+        width: 40px;
+    }
+
+    .offer-accept-model .offer-content .inner-content .offer-profile-text h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .offer-accept-model .offer-content .inner-content .offer-profile-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .offer-accept-model .offer-content {
+        padding: 0 16px !important;
+        display: block;
+    }
+
+    .offer-accept-model .offer-content .view-profile-link {
+        text-align: right;
+    }
+
+    .offer-accept-model .interview-text .center-content .interview-data {
+        padding: 12px 12px 0 12px;
+    }
+
+    .offer-accept-model .interview-text .center-content {
+        padding: 0 16px !important;
+    }
+
+    .offer-accept-model .last-content-btn {
+        padding: 24px 26px 24px 0 !important;
+    }
+
+    .offer-accept-model .interview-text .center-content .date-time-content {
+        display: block;
+    }
+
+    .offer-accept-model
+        .interview-text
+        .center-content
+        .date-time-content
+        .form-date {
+        margin-right: 0;
+        margin-bottom: 0 !important;
+        width: 100%;
+    }
+
+    .offer-accept-model
+        .interview-text
+        .center-content
+        .date-time-content
+        .form-time {
+        width: 100%;
+    }
+
+    .offer-accept-model .job-post-id {
+        display: block;
+        padding-left: 58px;
+    }
+
+    .offer-accept-model .job-post-id p {
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+
+    .offer-accept-model .model-top-heading button {
+        top: 10px;
+        right: 10px;
+    }
+
+    .offer-accept-model .offer-modal-heading {
+        padding: 74px 14px 0 14px !important;
+    }
+
+    .offer-accept-model .interview-data-text .interview-open p {
+        padding: 0 !important;
+        margin-top: 5px;
+        margin-bottom: 0 !important;
+    }
+
+    .offer-accept-model .offer-btn-cancel {
+        padding: 15px !important;
+    }
+
+    .offer-accept-model .profile-coin {
+        margin-top: -100px;
+    }
+
+    .offer-accept-model .profile-coin img {
+        width: 80px;
+    }
+
+    .offer-accept-model .offer-content .inner-content .offer-profile-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .select-option-data .date-wrapper .formControl {
+        margin: 0;
+    }
+
+    .offer-accept-model .job-post-id p:first-child::before {
+        display: none;
+    }
+
+    .approval_modal .modal-title {
+        padding: 30px 20px 15px 20px;
+    }
+
+    .request_notification-modal .title-img {
+        width: 60px;
+    }
+
+    .approval_modal .content h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .approval_modal .bottom {
+        padding-bottom: 30px !important;
+    }
+
+    .approval_modal .content {
+        padding: 0 20px 16px !important;
+    }
+
+    .approval_modal .title-img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/*---------------responsive-----------------*/
+@media (max-width: 480px) {
+    .changePassword_modal .modal-title {
+        padding: 30px 24px 16px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .changePassword_modal .content {
+        padding: 0px 24px 16px !important;
+    }
+
+    .changePassword_modal .bottom {
+        padding: 8px 24px 40px !important;
+    }
+
+    /* dynamic dialog*/
+    .dynamic-dialog .modal-title {
+        padding: 30px 24px 16px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .dynamic-dialog .content {
+        padding: 24px 24px 16px !important;
+    }
+
+    .dynamic-dialog .bottom {
+        padding: 8px 24px 40px !important;
+    }
+
+    .approval_modal .modal-title .MuiIconButton-root {
+        top: 5px;
+        right: 5px;
+    }
+
+    .offer-accept-model .MuiDialog-paper {
+        margin: 16px;
+        width: 100%;
+    }
+}
+
+.crop-container .reactEasyCrop_Container {
+    border-radius: 5px;
+}
+
+/*------------- agency request modal style end-------------*/
+/* 05/07/2022  pratik */
+@media (max-width: 480px) {
+    .add_project-modal .MuiDialog-paper {
+        min-width: unset;
+        width: 100%;
+        margin: 16px;
+    }
+
+    .add_project-modal.projectDetail-modal .modal-title {
+        padding: 16px;
+    }
+
+    .add_project-modal .modal-title {
+        font-size: 18px;
+    }
+
+    .add_project-modal.projectDetail-modal
+        .modal-title
+        .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+        top: 14px !important;
+        right: 14px !important;
+    }
+
+    .projectDetail-modal .projectDetail-card .MuiCardContent-root {
+        padding: 0 16px !important;
+    }
+
+    .developer-profile-subtitle {
+        margin-top: 16px !important;
+    }
+
+    .changePassword_modal .MuiDialog-paper {
+        margin: 16px;
+    }
+
+    .add_project-modal .modal-title {
+        padding: 16px 16px 16px;
+    }
+
+    .add_project-modal .modal-title .MuiIconButton-root {
+        right: 15px !important;
+        top: 17px !important;
+    }
+
+    .add_project-modal .content {
+        padding: 0 16px !important;
+    }
+
+    .cancle-request-model .modal-title h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .cancle-request-model .modal-title {
+        padding: 16px 16px 14px 16px;
+    }
+
+    .cancle-request-model .css-123knc6-MuiButtonBase-root-MuiIconButton-root {
+        top: 10px;
+        right: 0px;
+    }
+
+    .cancle-request-model .content {
+        padding: 0 16px !important;
+    }
+
+    .approval_modal .content span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #476072 !important;
+}
+
+.time-wrapper input {
+    text-transform: uppercase;
+}
+
+.add_project-modal.projectDetail-modal .modal-title {
+    padding: 20px 20px 10px 20px;
+}
+
+.projectDetail-modal .projectDetail-card .MuiCardContent-root {
+    padding: 0px 20px 10px 20px !important;
+}
+
+.add_project-modal.projectDetail-modal .modal-title .MuiIconButton-root {
+    top: 15px !important;
+    right: 15px !important;
+}
+
+.projectDetail-modal
+    .projectDetail-card
+    .MuiCardContent-root
+    .developer-profile-subtitle {
+    margin-top: 16px;
+}
+
+.projectDetail-modal .projectDetail-card .skillList .skillList-item {
+    margin-bottom: 6px;
+}
+
+.chat-header-date .Mui-selected {
+    background-color: #548ca8 !important;
+    color: #fff !important;
+}
+
+.chat-header-date
+    .MuiClockPicker-root
+    .css-92nr1f-MuiButtonBase-root-MuiIconButton-root {
+    background-color: #548ca8 !important;
+}

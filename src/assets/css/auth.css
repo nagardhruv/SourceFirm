@@ -1,0 +1,906 @@
+.loginpage {
+    width: 100%;
+    position: relative;
+    font-family: "Gordita";
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left-container {
+    width: 42%;
+    /* background: url('../img/login-bg.png') no-repeat; */
+    background-image: linear-gradient(
+            270deg,
+            rgb(71 96 114 / 90%) 100%,
+            rgba(255, 255, 255, 0) 0%
+        ),
+        url("../img/login-bg.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 100px 88px 40px 40px;
+    position: relative;
+}
+
+.loginpage .left-container .bg-element {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    z-index: 1;
+}
+
+.left-container .logo {
+    width: 200px;
+    margin-bottom: 24px;
+}
+
+.left-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(255 255 255);
+}
+
+.left-container .link-container {
+    position: absolute;
+    bottom: 40px;
+}
+
+.right-container .link-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+.right-container .link-container .signUp-link {
+    font-weight: 500;
+    color: #548ca8;
+}
+
+.loginpage .right-container {
+    width: 58%;
+    /* padding: 30px 140px 90px 174px; */
+    position: relative;
+    font-family: "Gordita" !important;
+    background: #f8f9f9;
+    overflow: auto;
+    height: 100%;
+}
+
+.loginpage .right-container .bg-element {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.loginpage .signup-links {
+    color: #548ca8;
+    text-decoration: none;
+    pointer-events: all;
+}
+
+.right-container .login-nav {
+    text-align: end;
+    padding: 30px 140px 0px 174px;
+}
+
+.right-container .login-nav .nav-link {
+    color: #476072;
+    padding: 5px 20px;
+    position: relative;
+    display: inline-flex;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.right-container .login-nav .nav-link:hover,
+.right-container .login-nav .nav-link.active {
+    color: #000;
+}
+
+.right-container .login-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #548ca8;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.right-container .login-nav .nav-link:hover::before {
+    opacity: 1;
+}
+
+.right-container .form-container {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 90px);
+    /* min-height: 100vh; */
+    padding: 0px 140px 0px 174px;
+}
+
+.right-container.signUp-container .form-container {
+    padding: 0px 130px;
+}
+
+.right-container .loginForm {
+    width: 480px;
+}
+
+.right-container .resetform {
+    width: 370px;
+}
+
+.right-container .loginForm .form-content {
+    max-width: 370px;
+}
+
+.right-container.signUp-container .loginForm {
+    /* width: 570px; */
+    width: 100%;
+}
+
+.right-container .loginForm .signup-title {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgba(19, 26, 32, 0.64);
+    margin-bottom: 24px;
+}
+
+.right-container .loginForm .title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #131a20;
+    margin-bottom: 8px;
+}
+
+.right-container .loginForm .title span {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: rgba(19, 26, 32, 0.64);
+    display: block;
+}
+
+.signupForm .checkboxInput .MuiCheckbox-root.Mui-checked {
+    color: #548ca8 !important;
+}
+
+.right-container .loginForm h6 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: rgba(19, 26, 32, 0.64);
+}
+
+.right-container .verifyMailBox {
+    width: 370px !important;
+}
+
+.formControl {
+    width: 100%;
+    font-family: "Gordita" !important;
+    margin-bottom: 24px !important;
+    position: relative !important;
+}
+
+.autocomplete-nested-list {
+    margin-right: 0px;
+    padding-left: 35px !important;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.autocomplete-list {
+    margin-right: 0px;
+    font-size: 16px;
+}
+
+.formControl label {
+    font-weight: 500;
+    color: #131a20 !important;
+    opacity: 0.72;
+    font-size: 12px;
+    position: unset;
+    transform: none;
+}
+
+.formControl .specialty-content {
+    font-family: "Gordita" !important;
+    font-size: 16px;
+    color: #000000de;
+}
+
+.formControl label,
+.formControl .inputField input {
+    font-family: "Gordita" !important;
+}
+
+.signUp-container .formControl .inputField input {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px 0;
+    height: unset;
+}
+
+.formControl .inputField::after,
+.formControl .inputField::before {
+    display: none;
+}
+
+.form-content .checkboxInput .MuiCheckbox-root.Mui-checked {
+    color: #08d6a8 !important;
+}
+
+.formControl .inputField {
+    border: 1px solid #c8cfd5;
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin-top: 6px;
+    height: 48px;
+    background: #fff;
+}
+
+.formControl .inputField.Mui-disabled {
+    background: #548ca80f;
+    border: none;
+}
+
+.formControl .inputField input {
+    font-size: 16px;
+}
+
+.formControl .inputField input::placeholder {
+    font-size: 14px;
+}
+
+.formControl .inputField input.Mui-disabled {
+    -webkit-text-fill-color: #131a20;
+}
+
+.formControl .MuiInputAdornment-root {
+    width: 18px;
+}
+
+.formControl .inputField.selectTextField {
+    padding: 0;
+}
+
+.formControl
+    .inputField.selectTextField
+    .MuiInputBase-root-MuiOutlinedInput-root {
+    height: 48px;
+}
+
+.formControl .inputField.selectTextField .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+}
+
+.formControl .inputField.selectTextField input {
+    padding: 3.5px 4px 3.5px 0px;
+}
+
+.profile-inner .formControl .MuiAutocomplete-inputRoot {
+    padding-left: 16px !important;
+    padding-right: 90px !important;
+}
+
+.profile-inner
+    .formControl
+    .MuiAutocomplete-root
+    .MuiAutocomplete-inputRoot
+    .MuiAutocomplete-input {
+    width: auto;
+}
+
+.right-container .loginForm .formControl .forget-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #548ca8;
+    width: fit-content;
+    margin-left: auto;
+}
+
+span.MuiDivider-wrapper {
+    color: #343434;
+}
+
+.socialLogin {
+    display: flex;
+}
+
+.media-btn {
+    width: 100%;
+    font-family: "Gordita" !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    color: #343434b8 !important;
+    text-transform: unset !important;
+    padding: 12px !important;
+    justify-content: start !important;
+    box-shadow: 0px 4px 16px rgba(22, 75, 122, 0.1);
+    background: #fff;
+    margin: 24px 0 30px !important;
+    border-radius: 8px !important;
+    height: 48px;
+}
+
+.media-btn span {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.loginForm .media-btn {
+    justify-content: center !important;
+}
+
+.right-container .loginForm .formControl p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #343434;
+    margin-bottom: 0;
+}
+
+.right-container .loginForm .formControl.subtext p {
+    color: rgba(52, 52, 52, 0.64);
+}
+
+.right-container .loginForm .formControl.subtext img {
+    width: auto;
+    height: 80px;
+}
+
+/*----------MuiSelect-select style------------*/
+.MuiSelect-select.MuiSelect-standard.MuiInput-input.MuiInputBase-input {
+    padding: unset;
+}
+
+/*----------MuiSelect-select style end------------*/
+
+.select-role,
+.details-container {
+    margin: 32px 0 0;
+}
+
+.select-role h6,
+.details-container h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #131a20b8;
+    margin-bottom: 16px;
+}
+
+.select-role .role-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.select-role .role-container a {
+    text-decoration: none;
+    width: 100%;
+    /* margin-right: 20px; */
+    /* width: 48%; */
+}
+
+.select-role .role-container .role-div {
+    /* width: 180px; */
+    width: 100%;
+    height: 160px;
+    background: #ffffff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    /* display: table-cell; 
+    vertical-align: middle;*/
+    padding-top: 24px;
+    box-shadow: 0px 4px 16px rgba(22, 75, 122, 0.08);
+}
+
+.select-role .role-container .role-div.active,
+.select-role .role-container .role-div:hover {
+    border: 2px solid #548ca8;
+}
+
+.select-role .role-container .role-div img {
+    height: 56px;
+    margin-bottom: 8px;
+}
+
+.select-role .role-container .role-div.active img,
+.select-role .role-container .role-div:hover img {
+    filter: unset;
+    opacity: 1;
+    /* filter: saturate(7); */
+}
+
+.select-role .role-container .role-div img {
+    opacity: 0.4;
+}
+
+.select-role .role-container .role-div p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6e7377;
+    margin-bottom: 0;
+}
+
+.select-role .role-container .role-div span {
+    color: rgba(110, 115, 119, 0.72);
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.select-role .role-container .role-div.active span {
+    color: rgba(19, 26, 32, 0.72);
+}
+
+.select-role .role-container .role-div.active p,
+.select-role .role-container .role-div:hover p {
+    color: #131a20;
+}
+
+.action-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+.checkboxInput span {
+    font-size: 12px;
+    font-family: "Gordita" !important;
+    color: #131a20b8;
+}
+
+.action-div .nextBtn {
+    font-size: 14px;
+    margin-left: auto;
+    margin-bottom: 0px !important;
+}
+
+.skipNowBtn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #548ca8 !important;
+    padding: 0 24px 0 0 !important;
+    font-family: "Gordita";
+    text-transform: capitalize !important;
+    margin-right: auto !important;
+}
+
+.action-div .previousBtn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #548ca8;
+    padding: 0 24px 0 0 !important;
+    font-family: "Gordita";
+    text-transform: capitalize !important;
+}
+
+.action-div .skipBtn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #548ca8;
+    background-color: #f5f8fa !important;
+    border-radius: 8px;
+    margin-right: auto;
+}
+
+.resetAction-div {
+    justify-content: flex-end;
+}
+
+.browseText {
+    font-family: "Gordita";
+    width: fit-content;
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
+    height: 46px;
+    padding: 0 24px !important;
+    background-color: #c8cfd5 !important;
+    border-radius: 0 8px 8px 0 !important;
+    color: #6e7377 !important;
+    text-transform: capitalize !important;
+    display: flex;
+    align-items: center;
+}
+
+.formControl .inputField .MuiSelect-select-MuiInputBase-input-MuiInput-input {
+    font-family: "Gordita";
+}
+
+.formControl
+    .inputField
+    .MuiSelect-select-MuiInputBase-input-MuiInput-input:focus {
+    background-color: #f9fcff;
+}
+
+.formControl .inputField .MuiSelect-icon.MuiSvgIcon-root {
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.474117 0.518441C0.644567 0.344573 0.911292 0.328767 1.09925 0.471023L1.15309 0.518441L5.00016 4.44283L8.84723 0.518441C9.01768 0.344573 9.2844 0.328767 9.47236 0.471023L9.52621 0.518441C9.69666 0.692309 9.71215 0.964384 9.57269 1.15611L9.52621 1.21104L5.33965 5.48156C5.1692 5.65543 4.90248 5.67123 4.71452 5.52898L4.66067 5.48156L0.474117 1.21104C0.286622 1.01978 0.286622 0.709696 0.474117 0.518441Z' fill='%23164B7AA3'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+}
+
+/* .formControl .inputField .MuiSvgIcon-root-MuiSelect-icon{
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.474117 0.518441C0.644567 0.344573 0.911292 0.328767 1.09925 0.471023L1.15309 0.518441L5.00016 4.44283L8.84723 0.518441C9.01768 0.344573 9.2844 0.328767 9.47236 0.471023L9.52621 0.518441C9.69666 0.692309 9.71215 0.964384 9.57269 1.15611L9.52621 1.21104L5.33965 5.48156C5.1692 5.65543 4.90248 5.67123 4.71452 5.52898L4.66067 5.48156L0.474117 1.21104C0.286622 1.01978 0.286622 0.709696 0.474117 0.518441Z' fill='%23164B7AA3'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    transform: rotate(180deg);
+} */
+.signUp-container .checkboxInput {
+    width: fit-content;
+    margin-bottom: 15px;
+    pointer-events: none;
+}
+
+.checkboxInput {
+    width: fit-content;
+}
+
+.checkboxInput .MuiCheckbox-root {
+    color: #6a8caa99;
+    pointer-events: all;
+}
+
+.checkboxInput .MuiCheckbox-root.Mui-checked,
+.checkboxInput .MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: #6a8caa !important;
+}
+
+.captchaCode-container .reload-btn {
+    width: 16px;
+    height: 16px;
+    /* Opacity: 64%; */
+    margin-top: 27px;
+    margin-right: 26px;
+}
+
+.captchaCode-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.captchaCode-container .captcha-canvas {
+    background: #f8f9f9 !important;
+    width: 168px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.main-client-content
+    .createJob-container
+    .createJob-wrapper
+    .createJob-wrapper-inner
+    .MuiFormControl-root
+    .multiSelect-Textfield
+    .MuiAutocomplete-tag
+    svg {
+    color: #fff;
+}
+
+/**-------------------------------------------------------------------**/
+/**------------------- responsive style ------------**/
+/**-------------------------------------------------------------------**/
+@media (max-width: 1439px) {
+    .loginpage .right-container .bg-element {
+        display: none;
+    }
+}
+
+@media (max-width: 1366px) {
+    .right-container .form-container {
+        height: auto;
+    }
+
+    .loginpage .right-container .login-nav {
+        padding: 30px 80px 0px 80px;
+    }
+
+    .loginpage .right-container .form-container {
+        padding: 30px 80px 0px 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* .loginpage .right-container{
+        padding: 30px 40px 40px;
+    } */
+    .right-container.signUp-container .form-container .signupForm {
+        width: 500px;
+    }
+
+    .select-role .role-container .role-div {
+        /* width: 140px; */
+        /*June-29-2022*/
+        /* height: 140px; */
+        padding-top: 12px;
+    }
+
+    .select-role .role-container .role-div p {
+        margin-top: 0px;
+    }
+
+    .select-role .role-container a:first-child .role-div {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .right-container.signUp-container .form-container .signupForm {
+        width: 400px;
+    }
+
+    .select-role .role-container .role-div {
+        /* width: 180px; */
+        /*June-29-2022*/
+        min-height: 150px;
+    }
+
+    .select-role .role-container .role-div p {
+        margin-top: 0px;
+    }
+
+    .signupForm .formGrid {
+        display: block !important;
+    }
+
+    .signupForm .formGrid .formGrid-inner {
+        width: 100%;
+    }
+
+    .captchContainer {
+        margin-bottom: 12px !important;
+    }
+
+    .left-container {
+        padding: 80px 30px;
+    }
+
+    .select-role .role-container .role-div img {
+        margin-bottom: 0;
+    }
+    .select-role .role-container{
+        grid-gap: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* .right-container.signUp-container .form-container .signupForm {
+        width: 370px;
+    } */
+    .loginpage .right-container .login-nav {
+        padding: 30px 40px 15px;
+    }
+
+    .loginpage .right-container .form-container {
+        padding: 15px 40px 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .socialLogin {
+        display: block;
+    }
+
+    .media-btn {
+        width: 100%;
+    }
+
+    .media-btn:first-child {
+        margin-bottom: 10px !important;
+    }
+
+    .select-role .role-container .role-div {
+        /* width: 110px; */
+        /*June-29-2022*/
+        /* height: 130px; */
+    }
+
+    .select-role .role-container .role-div img {
+        height: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .left-container {
+        display: none;
+    }
+
+    .loginpage .right-container {
+        width: 100%;
+    }
+
+    .right-container .form-container,
+    .right-container.signUp-container .form-container .signupForm {
+        width: 100%;
+    }
+
+    .select-role .role-container .role-div {
+        /* width: 140px; */
+        /*June-29-2022*/
+        /* height: 140px; */
+        padding-top: 30px;
+    }
+
+    .captchContainer {
+        height: auto;
+        width: 50% !important;
+    }
+
+    .right-container .loginForm .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .loginpage .right-container .form-container {
+        padding-top: 0;
+        justify-content: center;
+    }
+
+    .right-container .loginForm .form-content {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 480px) {
+    .select-role .role-container {
+        flex-wrap: wrap;
+    }
+
+    .select-role .role-container .role-div {
+        /* width: 140px; */
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .select-role .role-container a {
+        margin-bottom: 15px;
+    }
+
+    .select-role .role-container a:first-child .role-div {
+        margin-right: 10px;
+    }
+    .select-role .role-container a{
+        width: 47%;
+    }
+    .select-role .role-container .role-div{
+        min-height: 134px;
+    }
+}
+
+.phoneInputField.react-tel-input {
+    margin-top: 0;
+}
+
+.phoneInputField.react-tel-input .special-label {
+    position: unset;
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+
+.react-tel-input .selected-flag .flag {
+    margin-top: 0;
+}
+
+.signUp-container .signlabel-box .checkboxInput {
+    margin: 0;
+}
+
+.signUp-container .signlabel-box {
+    margin-bottom: 20px;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: unset !important;
+}
+
+.right-container .signlabel-box p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.project-duretion-month {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.custom-select-data label {
+    font-weight: 500;
+    color: #131a20 !important;
+    opacity: 0.72;
+    font-size: 12px;
+    position: unset;
+    transform: none;
+    font-family: "Gordita" !important;
+}
+.datetime-custom-control {
+    margin-right: 5px;
+}
+.project-duretion-month .formControl .MuiInputAdornment-root {
+    width: unset;
+    height: 100%;
+}
+
+.project-duretion-month .formControl .inputField {
+    position: relative;
+}
+
+.project-duretion-month .month-duration p {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaf1f5;
+    border-radius: 0px 7px 7px 0px;
+    width: 94px;
+}
+
+.project-duretion-month .MuiFormControlLabel-root {
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 24px;
+    min-width: 100px;
+}
+
+@media (max-width: 1024px) {
+    .project-duretion-month .month-duration p {
+        width: 70px;
+    }
+}
+
+@media (max-width: 991px) {
+    .project-duretion-month .month-duration p {
+        width: 50px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-duretion-month .month-duration p {
+        width: 60px;
+        font-size: 12px;
+    }
+}

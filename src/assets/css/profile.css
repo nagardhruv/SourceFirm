@@ -1,0 +1,2080 @@
+/*-------------- add_profile-page style ---------*/
+.profile-top-section {
+    background: linear-gradient(
+            270deg,
+            rgb(71 96 114 / 90%) 100%,
+            rgba(255, 255, 255, 0) 0%
+        ),
+        url("../img/profile-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.agency_profile-top-section {
+    background: linear-gradient(
+            270deg,
+            rgb(71 96 114 / 90%) 100%,
+            rgba(255, 255, 255, 0) 0%
+        ),
+        url("../img/agencyprofile-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.freelancer_profile-top-section {
+    background: linear-gradient(
+            270deg,
+            rgb(71 96 114 / 90%) 100%,
+            rgba(255, 255, 255, 0) 0%
+        ),
+        url("../img/freelance-profile-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.profile-top-section::before {
+    content: "";
+    position: absolute;
+    top: 85%;
+    left: 0;
+    background: url("../img/half_oval-shape.png") no-repeat;
+    width: 150px;
+    height: 330px;
+    background-size: contain;
+}
+
+/* .add_profile-top-section::after{
+    content: '';
+    position: absolute;
+    top: 75%;
+    right: 0;
+    background: url('../img/bg-element-path2.png') no-repeat;
+    width: 170px;
+    height: 656px;
+    background-size: contain;
+    transform: rotate(3deg); 
+} */
+.profile-top-inner {
+    padding-top: 24px;
+}
+
+.breadcrumb-div .breadcrumb-nav {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6a8caa;
+    font-family: "Gordita";
+}
+
+.breadcrumb-div .breadcrumb-nav .MuiTypography-root {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6a8caa;
+    font-family: "Gordita";
+    text-decoration: none;
+}
+
+.breadcrumb-div .breadcrumb-nav .MuiBreadcrumbs-separator {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.breadcrumb-div .breadcrumb-nav a {
+    color: #b5b7b9;
+    text-decoration: none;
+}
+
+.breadcrumb-div .breadcrumb-nav a:hover,
+.breadcrumb-div .breadcrumb-nav a:focus {
+    text-decoration: underline;
+}
+
+.breadcrumb-div .breadcrumb-nav a:hover,
+.breadcrumb-div .breadcrumb-nav a:focus,
+.breadcrumb-div .breadcrumb-nav a:visited {
+    color: #b5b7b9;
+}
+
+.profile-top-inner .clientId {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 0px;
+    text-align: end;
+}
+
+.profile-container {
+    position: relative;
+    z-index: 2;
+}
+
+.add_profile-container {
+    margin-top: -310px;
+}
+
+.edit_profile-container {
+    margin-top: -310px;
+}
+
+.profile-container h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.profile-inner {
+    background: #ffffff;
+    border: 1px solid rgba(99, 180, 253, 0.16);
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 40px;
+    position: relative;
+}
+
+.add_profile-form {
+    max-width: 765px;
+    width: 100%;
+    margin: auto;
+}
+
+.add_profile-form .profileBadge,
+.add_developer-form .profileBadge {
+    margin-bottom: 40px;
+}
+
+.add_developer-form
+    .MuiFormControl-root
+    .MuiButtonBase-root
+    .MuiChip-deleteIcon {
+    color: #fff;
+}
+
+.add_profile-form .title:first-child {
+    margin: 0px 0px 16px;
+}
+
+.add_profile-form .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #131a20;
+    margin: 16px 0px 16px;
+}
+
+.formGrid {
+    justify-content: space-between;
+    position: relative;
+}
+
+.formGrid .formGrid-inner {
+    width: 48%;
+}
+
+.form-control textarea {
+    border-color: #c8cfd5;
+    border-radius: 8px;
+    padding: 10px 16px 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-family: "Gordita";
+}
+
+.formControl textarea:focus-visible {
+    outline: #c8cfd5 !important;
+}
+
+.add_profile-form .action-div {
+    text-align: end;
+    margin-top: 16px;
+    justify-content: flex-end;
+}
+
+.nextBtn {
+    margin-left: unset;
+}
+
+.branch-container {
+    background: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 24px;
+    position: relative;
+    margin-bottom: 24px;
+    box-shadow: 0px 0px 8px rgba(23, 47, 69, 0.08);
+}
+
+.branch-container .branch-count {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #131a20;
+    margin-bottom: 0;
+}
+
+.branch-container .main-branch {
+    position: absolute;
+    top: -2px;
+    right: 50px;
+    width: 96px;
+    padding: 9px 12px;
+    background: #f3f9ff;
+    border-radius: 0px 0px 8px 8px;
+
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6e7377;
+}
+
+.branch-container .closebtn {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+.branch-container .closebtn img {
+    width: 12px;
+    height: 12px;
+}
+
+/* .branch-container.active, .branch-container:hover{
+    border: 2px solid #08D6A8;
+} */
+.branch-container.active .main-branch,
+.branch-container:hover .main-branch {
+    background: #6a8caa;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.branch-container .checkboxInput .MuiCheckbox-root {
+    color: #6a8caa !important;
+}
+
+.addBranchBtn {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6a8caa !important;
+    /* padding: 0 24px 0 0 !important; */
+    font-family: "Gordita";
+    text-transform: capitalize !important;
+}
+
+.addBranchBtn img {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+.editBtn {
+    position: absolute !important;
+    right: 24px;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(106, 140, 170, 0.16) !important;
+    border-radius: 8px !important;
+    z-index: 9;
+}
+
+.editBtn img {
+    width: 16px;
+}
+
+.language-container {
+    width: 100%;
+    background: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    position: relative;
+    margin-bottom: 24px;
+    box-shadow: 0px 0px 8px rgba(23, 47, 69, 0.08);
+}
+
+.languageTitle {
+    background: #476072;
+    border-radius: 8px 8px 0px 0px;
+    padding: 12px 24px;
+}
+
+.languageTitle p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.languageContent {
+    padding: 24px 24px 0px;
+}
+
+.language-container .formGrid .formGrid-inner {
+    width: 45%;
+}
+
+.deleteDiv {
+    display: flex;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 24px;
+}
+
+.language-container .no_of_lang {
+    display: flex;
+    align-items: center;
+}
+
+.language-container .no_of_lang p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #131a20;
+    opacity: 0.72;
+}
+
+.addLang {
+    padding: 0px 24px 24px;
+}
+
+/*-------------- add_profile-page style end---------*/
+
+/*---------------- My profile section ---------------*/
+.my_profile-container {
+    margin-top: -340px;
+}
+
+.my_profile-container .userprofile-detail-section {
+    padding-top: 40px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.userprofile-detail-section .userDetails .userImage {
+    width: 120px;
+}
+
+.userprofile-detail-section .userDetails .userImage .profileBadge {
+    margin-bottom: 0;
+}
+
+.userprofile-detail-section .userDetails {
+    display: flex;
+    align-items: center;
+}
+
+.userprofile-detail-section .userImage .user {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+.userprofile-detail-section .userImage .user.defaultImg img {
+    width: auto;
+}
+
+.more_action {
+    color: #fff !important;
+}
+
+.more_action:hover {
+    background-color: rgb(255 255 255 / 4%) !important;
+}
+
+.more_actionList {
+    min-height: auto !important;
+}
+
+.more_actionList a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6a8caa;
+}
+
+.more_actionList a img {
+    margin-right: 8px;
+}
+
+.userprofile-detail-section .userDetails .userInfo {
+    width: calc(100% - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+}
+
+.userprofile-detail-section .userDetails .userInfo h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.userprofile-detail-section .userDetails .userInfo p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.userprofile-detail-section .companyDetails {
+    padding-left: 144px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userprofile-detail-section .companyDetails .formGrid {
+    width: calc(100% / 4);
+}
+
+.userprofile-detail-section .companyDetails .formGrid label {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    white-space: nowrap;
+}
+
+.userprofile-detail-section .companyDetails .formGrid p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 0;
+    white-space: break-spaces;
+    word-break: break-word;
+    padding-right: 15px;
+    padding-top: 4px;
+}
+
+.my_profile-inner .formGrid .formControl {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.my_profile-inner .formGrid .formControl .profile_avatar {
+    width: 40px;
+    height: 40px;
+    background: #39a1ff14 !important;
+    margin-right: 8px;
+}
+
+.profile_avatar img {
+    height: 16px;
+    /* filter: saturate(7); */
+}
+
+.my_profile-inner .formGrid .formControl label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #131a20;
+    margin-bottom: 4px;
+}
+
+.my_profile-inner .formGrid .formControl .value {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #131a20;
+    margin-bottom: 0;
+    word-break: break-all;
+}
+
+.my_profile-inner .formControl {
+    margin-bottom: 20px !important;
+}
+
+/*---------------- My profile section end---------------*/
+
+.CategoryTitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    margin-bottom: 0;
+}
+
+.portfolioTabSkill {
+    padding-top: 15px;
+}
+
+.categoryList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0 !important;
+    flex-wrap: wrap;
+    padding-bottom: 0px !important;
+}
+
+.jobpost-listing-chip {
+    min-height: 50px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-right: 1px;
+}
+
+.jobpost-listing-chip::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 30px;
+}
+
+/* Track */
+.jobpost-listing-chip::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* Handle */
+.jobpost-listing-chip::-webkit-scrollbar-thumb {
+    background: rgba(84, 140, 168, 0.5);
+    border-radius: 50px;
+    opacity: 0;
+    display: none;
+}
+
+/* Handle on hover */
+.jobpost-listing-chip:hover::-webkit-scrollbar-thumb {
+    background: rgba(84, 140, 168, 0.5);
+    border-radius: 50px;
+    display: block;
+}
+
+.jobpost-listing-chip::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50px;
+    /* display: none; */
+}
+
+.jobpost-listing-chip::-webkit-scrollbar-thumb {
+    background: rgba(84, 140, 168, 0.5);
+    border-radius: 50px;
+}
+
+.jobpost-listing-chip:hover::-webkit-scrollbar {
+    display: inline-flex;
+}
+
+.categoryList .categoryList-item {
+    height: 32px;
+    text-align: center;
+    background: rgba(22, 75, 122, 0.08);
+    border-radius: 6px;
+    margin-right: 12px;
+    padding: 5px 20px;
+    width: auto;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.categoryList .subcategoryList-item {
+    width: auto;
+    min-width: 80px;
+    height: 32px;
+    text-align: center;
+    background: rgba(22, 75, 122, 0.08);
+    border-radius: 6px;
+    margin-right: 9px;
+    padding: 5px 20px;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.categoryList .categoryList-item span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 75, 122, 0.64);
+    font-family: "Gordita";
+}
+
+.categoryList .subcategoryList-item span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(22, 75, 122, 0.64);
+    font-family: "Gordita";
+}
+
+.categoryList .more-subcategory {
+    border: 1px solid rgba(22, 75, 122, 0.64);
+    background: unset;
+    color: rgba(22, 75, 122, 0.64);
+}
+
+/*--------------- add agency profile style ------------*/
+.multiSelect-Textfield {
+    margin-top: 6px !important;
+}
+
+.multiSelect-Textfield .MuiOutlinedInput-root {
+    padding: 5px !important;
+    border-radius: 8px !important;
+}
+
+.multiSelect-Textfield fieldset.MuiOutlinedInput-notchedOutline {
+    border: 1px solid #c8cfd5 !important;
+}
+
+.uncheckedCircle-icon {
+    color: #6e7377;
+}
+
+.checkedCircle-icon {
+    /* color: #08D6A8; */
+    color: #235d93;
+}
+
+.MuiAutocomplete-tag {
+    /* background: #08D6A8 !important; */
+    background: #235d93 !important;
+    border-radius: 8px !important;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 20px;
+    color: #ffffff !important;
+}
+
+span.MuiAutocomplete-tag.MuiAutocomplete-tagSizeMedium {
+    min-width: 25px;
+    padding: 6px;
+    text-align: center;
+}
+
+/*------------ freelancer profile edit style -------------*/
+.accordion_panel-container {
+    background: rgba(106, 140, 170, 0.08) !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    margin-bottom: 16px;
+}
+
+.accordion_panel-container::before {
+    display: none;
+}
+
+.accordion_panel-container .MuiButtonBase-root.panel-header {
+    height: 48px;
+    align-items: center;
+    position: relative;
+}
+
+.accordion_panel-container .MuiButtonBase-root.panel-header .approval-tag {
+    background: rgba(255, 203, 59, 0.16);
+    color: #131a20;
+    font-weight: 400 !important;
+}
+
+.accordion_panel-container
+    .MuiButtonBase-root.panel-header
+    .MuiAccordionSummary-content {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.accordion_panel-container .MuiButtonBase-root.Mui-expanded.panel-header {
+    background-color: #476072 !important;
+    border-radius: 8px 8px 0px 0px;
+    min-height: 49px;
+    color: #fff;
+    position: relative;
+}
+
+.accordion_panel-container .MuiAccordionSummary-content.Mui-expanded {
+    margin: 10px 0;
+}
+
+.accordion_panel-content {
+    padding: 24px !important;
+    background: #fff;
+    box-shadow: 0px 0px 8px rgba(23, 47, 69, 0.08);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.project_detail-table {
+    border-collapse: unset !important;
+    border-spacing: 0px 10px !important;
+}
+
+.project_detail-table .tableCellHead {
+    padding: 8px 12px;
+    color: #131a20b8;
+    border-bottom: 1px solid #f5f8fa;
+    font-family: "Gordita";
+}
+
+.project_detail-table .tableTitle {
+    font-family: "Gordita";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #131a20;
+    margin-bottom: 0px;
+    border-bottom: none !important;
+    padding: 0px;
+}
+
+.project_detail-table .tableCellHead {
+    background: #f5f8fa;
+}
+
+.project_detail-table .tableCellHead:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.project_detail-table .tableCellHead:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.project_detail-table .tableDataCell {
+    font-family: "Gordita";
+    border-top: 1px solid rgba(99, 180, 253, 0.16);
+    border-bottom: 1px solid rgba(99, 180, 253, 0.16);
+    padding: 12px;
+}
+
+.project_detail-table .tableDataCell:first-child {
+    border-left: 1px solid rgba(99, 180, 253, 0.16);
+    border-radius: 8px 0 0 8px;
+}
+
+.project_detail-table .tableDataCell:last-child {
+    border-right: 1px solid rgba(99, 180, 253, 0.16);
+    border-radius: 0 8px 8px 0;
+}
+
+.project_detail-table .tableDataCell .actionBtn {
+    color: #6e7377;
+}
+
+.project_detail-table .tableDataCell .actionBtn .actionLink {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6e7377 !important;
+    text-decoration: none;
+}
+
+.accordion_panel-content .addBranchBtn {
+    margin-top: 12px;
+    width: fit-content;
+}
+
+.work-history {
+    background: #ffffff;
+    border: 1px solid rgba(99, 180, 253, 0.16);
+    border-radius: 12px;
+    padding: 24px 24px 0px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.work-history .history-count {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #131a20;
+    margin-bottom: 0;
+}
+
+.work-history .closebtn {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+.work-history .closebtn img {
+    width: 12px;
+    height: 12px;
+}
+
+/*------------ freelancer profile edit style end -------------*/
+/*------------ freelancer profile style --------------*/
+.freelancer_profile-details .personalDetail-section {
+    padding: 32px;
+    margin-right: 24px;
+}
+
+.freelancer_profile-details .otherDetail-section {
+    padding: 0;
+    overflow: hidden;
+}
+
+.userprofile-detail-section .experienceDetails .formGrid {
+    width: calc(100% / 6);
+}
+
+.freelancer_profile-details .personalDetail-section .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.personalDetail-section .title h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #131a20;
+    font-family: "Gordita";
+}
+
+.count-profileTitle {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #131a20b8;
+    margin-bottom: 24px !important;
+}
+
+.count-profileTitle span {
+    color: #131a20;
+}
+
+.edit-icon img {
+    width: 16px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.personalDetail-section .profile_avatar img {
+    width: 16px;
+}
+
+.personalDetail-section .formGrid .formControl label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #131a20;
+    opacity: 0.72;
+}
+
+.personalDetail-section .formGrid .formControl .value {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #131a20;
+}
+
+.freelancer_profile-details .otherDetail-section .MuiTabs-fixed {
+    margin: 0 16px;
+}
+
+.freelancer_profile-details .otherDetail-section .tab-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #131a20;
+    opacity: 0.56;
+    font-family: "Gordita";
+}
+
+.freelancer_profile-details .otherDetail-section .Mui-selected.tab-title {
+    font-weight: 700;
+    opacity: 1;
+}
+
+.MuiTabs-indicator {
+    background-color: #548ca8 !important;
+    border-radius: 4px 4px 0 0;
+}
+
+.freelancer_profile-details {
+    position: relative;
+    min-height: 30px;
+}
+
+.aboutContent .content.location,
+.aboutContent .content.language {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #131a20;
+}
+
+.projects .projectsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects .projectsList .projectListItem {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.work-timeline .MuiTimelineItem-root:before {
+    display: none;
+}
+
+.work-timeline .MuiTimelineContent-root {
+    padding-top: 0;
+    margin-top: -10px;
+    font-family: "Gordita";
+    padding-bottom: 26px;
+}
+
+.work-timeline .MuiTimelineDot-root {
+    margin: 0;
+    background-color: #08d6a8;
+    box-shadow: none;
+}
+
+.work-timeline .MuiTimelineDot-outlinedGrey {
+    background-color: #08d6a8;
+    border-color: #08d6a8;
+    outline: 2px solid #fff;
+    outline-offset: -7px;
+}
+
+.work-timeline .MuiTimelineConnector-root {
+    border: 1px dashed rgba(106, 140, 170, 0.4);
+    width: auto;
+    background-color: unset;
+}
+
+.work-timeline .year {
+    background: #6e737714;
+    border-radius: 6px;
+    padding: 8px 18px;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.work-timeline .year p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6e7377;
+    margin-bottom: 0;
+}
+
+.work-timeline .profile {
+    margin-bottom: 12px;
+}
+
+.work-timeline .profile p.company-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #08d6a8;
+    margin-bottom: 0;
+}
+
+.work-timeline .profile p.designation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6e7377;
+    margin-bottom: 0;
+}
+
+.work-timeline .description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(52, 52, 52, 0.72);
+}
+
+.work-timeline .MuiTimelineItem-root .deleteIconBtn {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    opacity: 0;
+}
+
+.work-timeline .MuiTimelineItem-root:hover .deleteIconBtn {
+    opacity: 1;
+}
+
+.certificateCard {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.certificateCard .deleteIconBtn {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+}
+
+.certificateCard:hover .deleteIconBtn {
+    opacity: 1;
+}
+
+.certificateCard:last-child {
+    margin-bottom: 0px;
+}
+
+.certificateCard .certificateImg {
+    padding: 8px;
+    background: #ecf6ff;
+    border-radius: 12px;
+    margin-right: 16px;
+    text-align: center;
+    height: fit-content;
+}
+
+.certificateCard .certificateImg img {
+    width: 164px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.certificateCard .content {
+    font-family: "Gordita";
+}
+
+.certificateCard .content .certificate-title {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
+.certificateCard .content .certificate-title p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #131a20;
+    margin-bottom: 0;
+}
+
+.certificateCard .content .certificate-title p.date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #6e7377;
+    margin: 0 12px;
+}
+
+.certificateCard .content .about-certi p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(14, 16, 26, 0.72);
+}
+
+/*------------ freelancer profile style end--------------*/
+/*------------ add freelancer profile style --------------*/
+.stepper-container {
+    margin-bottom: 40px;
+}
+
+.stepper-container .MuiStepConnector-root {
+    left: calc(-50% + 6px);
+    right: calc(50% + 9px);
+    z-index: -1;
+}
+
+.stepper-container .MuiStepConnector-root.Mui-active .MuiStepConnector-line {
+    border-color: #fff;
+}
+
+.stepper-container .MuiStepIcon-root {
+    color: #476072 !important;
+    border: 1px solid rgba(255, 255, 255, 0.56) !important;
+    border-radius: 100%;
+    font-family: "Gordita";
+}
+
+.stepper-container .MuiStepIcon-root.Mui-active {
+    border: 2px solid #fff !important;
+}
+
+.stepper-container .MuiStepIcon-root.Mui-completed {
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.stepper-container .stepLabel .MuiStepLabel-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Gordita";
+}
+
+.manage_developer-table.project_detail-table {
+    padding: 0px;
+}
+
+.addBtn-box {
+    min-height: 58px;
+    height: 100%;
+    border: 1px dashed #c8cfd5;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addBtn-box button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #6e7377;
+    font-family: "Gordita";
+}
+
+/*------------ add freelancer profile style end--------------*/
+.userInfo-right-section {
+    display: flex;
+    align-items: center;
+}
+
+.approval-tag {
+    font-family: "Gordita";
+    position: relative;
+    background: rgba(255, 203, 59, 0.24);
+    border-radius: 50px;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    text-align: center;
+    color: #ffffff;
+    text-transform: unset !important;
+    padding: 5px 12px 5px 30px;
+    margin-right: 12px;
+}
+.blocked-tag {
+    font-family: "Gordita";
+    position: relative;
+    background: rgba(255, 94, 123, 0.24);
+    border-radius: 50px;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    text-align: center;
+    color: #ffffff;
+    text-transform: unset !important;
+    padding: 5px 12px 5px 30px;
+    margin-right: 12px;
+}
+
+.approval-tag::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 8px;
+    height: 8px;
+    background: #ffcb3b;
+    border-radius: 100%;
+}
+
+.blocked-tag::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 8px;
+    height: 8px;
+    background: #ff5e7b;
+    border-radius: 100%;
+}
+
+.profileInnerApproval-tag {
+    position: absolute;
+    color: #131a20 !important;
+    font-size: 12px !important;
+    right: 65px;
+}
+
+/*---- file input style ------------*/
+.customFile-input input {
+    color: #343434;
+}
+
+.customFile-input input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.customFile-input input::before {
+    content: "Browse";
+    color: #6e7377;
+    display: inline-block;
+    background: #c8cfd5;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 30px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    height: 36px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/*----------- browseBtn -------*/
+.browseBtn {
+    width: 100%;
+}
+
+.filenameInput {
+    margin-right: auto;
+    width: calc(100% - 110px);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: none;
+    font-family: "Gordita";
+}
+
+.selectFileBtn {
+    width: 100%;
+}
+
+.selectFileBtn .browseText {
+    position: relative !important;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    border-radius: 8px !important;
+    background-color: #f5f8fa !important;
+}
+
+.selectFileFormcontrol .inputField {
+    border: 1px dashed #c8cfd5 !important;
+    padding: 10px 0px !important;
+}
+
+/*----------- browseBtn end-------*/
+
+/* profileEditBox style */
+.profileBadge {
+    margin-bottom: 0px;
+}
+
+.profileBadge .MuiBadge-badge {
+    top: unset;
+    bottom: -6px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #548ca8;
+    border: 4px solid #ffffff;
+    cursor: pointer;
+}
+
+.my_profileBadge .MuiBadge-badge {
+    background: #548ca8;
+    border: 4px solid #476072;
+    cursor: pointer;
+}
+
+.profileBadge .MuiBadge-badge img {
+    filter: brightness(10);
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.profileBadge .MuiInput-input {
+    display: none;
+}
+
+.profileBadge .MuiIconButton-root {
+    padding: 8px !important;
+}
+
+.profileEditBox {
+    background-color: rgba(106, 140, 170, 0.16);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(106, 140, 170, 0.32);
+    overflow: hidden;
+}
+
+.profileEditBox img.default {
+    height: 40px;
+}
+
+.profileEditBox img.profile_image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.registered-formGrid {
+    margin-top: -11px;
+}
+
+.registered-formGrid .checkboxInput .MuiCheckbox-root {
+    order: 2;
+    padding: 3px;
+    color: #6e7377 !important;
+}
+
+/* .datepicker-formGrid .formControl label {
+    margin-top: -14px;
+} */
+
+.registered-formGrid .checkboxInput {
+    margin-left: 0;
+}
+
+.registered-formGrid .formControl .inputField {
+    margin-top: 0;
+}
+
+.datepicker-formGrid {
+    align-items: flex-start;
+}
+
+.datepicker-formGrid .to-text {
+    margin-bottom: 24px;
+    padding-top: 34px;
+}
+
+.datepicker-formGrid .MuiOutlinedInput-input {
+    padding: 12.5px 0 12.5px 8px;
+    font-family: "Gordita";
+}
+
+.datepicker-formGrid .formGrid-inner {
+    width: 46%;
+}
+
+.datepicker-formGrid .MuiOutlinedInput-notchedOutline {
+    border-color: #c8cfd5;
+}
+
+.datepicker-formGrid .MuiButtonBase-root {
+    color: #6e7377;
+}
+
+.datepicker-formGrid .MuiFormControl-root {
+    width: 100%;
+}
+
+.datepicker-formGrid .MuiInputBase-adornedEnd {
+    padding-right: 20px;
+    /* padding-right: 24px; */
+    margin-top: 6px;
+}
+
+/*------------- added section style --------------*/
+.my_profile-inner .formGrid .formControl .website-label,
+.my_profile-inner .formGrid .formControl .idProof-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343434;
+    opacity: 1;
+}
+
+.my_profile-inner .formGrid .formControl .project-link {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #131a20;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.my_profile-inner .formGrid .formControl .idProof-name {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.my_profile-inner .formGrid .formControl .idProof-name span {
+    width: 40px;
+    height: 40px;
+    background: rgba(106, 140, 170, 0.16);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.my_profile-inner .formGrid .formControl .idProof-name .downloadBtn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #548ca8;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.my_profile-inner.personalDetail-section .formGrid:last-child .formControl {
+    margin-bottom: 0px !important;
+}
+
+/*--------- bank detail container style -----------*/
+.bankDetailContainer {
+    background: #f5f8fa;
+    border-radius: 12px;
+    padding: 32px;
+    margin-bottom: 40px;
+}
+
+.bankDetailContainer .formGrid .bankLabel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(52, 52, 52, 0.72);
+    width: 30%;
+}
+
+.bankDetailContainer .formGrid .bankValue {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #131a20;
+    width: 70%;
+    word-break: break-all;
+}
+
+.formGrid .formGrid-inner .infoIcon {
+    height: 16px;
+    width: fit-content;
+}
+
+/*---------------- edit project screen style -------------*/
+.profile-inner.edit_project-inner {
+    padding: 0px;
+}
+
+.projects-sidebar {
+    padding: 40px 24px 40px 40px;
+    border-right: 1px solid rgba(22, 75, 122, 0.16);
+}
+
+.projects-sidebar .sidebarTitlle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebarTitlle-section .addIconBtn {
+    width: 32px;
+    height: 32px;
+    background: #548ca8 !important;
+    border-radius: 8px;
+}
+
+.sidebarTitlle-section .addIconBtn img {
+    width: 14px;
+    filter: brightness(10);
+}
+
+.projects-sidebar .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #131a20;
+    margin-bottom: 0;
+}
+
+.projects-sidebar ul {
+    max-height: 768px;
+    min-height: 525px;
+    overflow: auto;
+}
+
+.editProject-container {
+    padding: 40px 40px 40px 24px;
+}
+
+.add_profile-form .editProject-container {
+    padding: 0px 0px 24px;
+}
+
+.edit-conatiner {
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(23, 47, 69, 0.08);
+    border-radius: 12px;
+}
+
+.edit-container-header {
+    background: #476072;
+    border-radius: 12px 12px 0px 0px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.edit-container-header .title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 0 !important;
+}
+
+.edit-container-content {
+    padding: 24px;
+}
+
+.projectsListItem {
+    background: rgba(106, 140, 170, 0.08);
+    border-radius: 8px;
+    padding: 14px 24px !important;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.projectsListItem a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6e7377;
+}
+
+.projectsListItem:hover {
+    background: #476072;
+}
+
+.projectsListItem:hover a {
+    color: #fff;
+}
+
+.projectsListItem.active {
+    background: #476072;
+}
+
+.projectsListItem.active a {
+    color: #fff;
+}
+
+.edit_project-inner .action-div {
+    justify-content: flex-end;
+}
+
+.edit_project-inner .action-div .nextBtn {
+    margin-left: unset;
+}
+
+/*--------------- agency developer profile -----------------*/
+.language-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.language-section .language-div {
+    width: 48%;
+    position: relative;
+}
+
+.language-section .language-div .lang-status {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(14, 16, 26, 0.64);
+}
+
+.language-section .language-div .language_slider {
+    color: rgba(14, 16, 26, 0.08) !important;
+    height: 6px !important;
+    border-radius: 6px !important;
+}
+
+.language-section .language-div .language_slider .MuiSlider-rail {
+    height: 6px !important;
+    border-radius: 6px !important;
+}
+
+.language-section .language-div .language_slider .MuiSlider-track {
+    height: 6px !important;
+    border-radius: 6px !important;
+    background-color: #548ca8 !important;
+}
+
+.language-section .language-div .language_slider .MuiSlider-thumb {
+    display: none !important;
+}
+
+.language-content {
+    max-width: 80%;
+}
+
+.side-bar-language-content {
+    max-width: 70%;
+}
+
+/*--------------- agency developer profile end-----------------*/
+
+/**-------------------------------------------------------------------**/
+/**------------------- responsive style ------------**/
+/**-------------------------------------------------------------------**/
+@media (max-width: 1199px) {
+    .userprofile-detail-section .companyDetails .formGrid {
+        width: calc(100% / 3);
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .profile-top-section {
+        height: 480px;
+    }
+
+    .my_profile-container {
+        margin-top: -420px;
+    }
+}
+
+@media (max-width: 899px) {
+    .projects-sidebar .title {
+        padding-right: 10px;
+    }
+
+    .add_profile-container {
+        margin-top: -260px;
+    }
+
+    .edit_profile-container {
+        margin-top: -260px;
+    }
+
+    .profile-top-inner .clientId {
+        margin-top: 12px;
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .userprofile-detail-section .companyDetails .formGrid {
+        width: calc(100% / 2);
+        margin-bottom: 10px;
+    }
+
+    .freelancer_profile-details .personalDetail-section {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    .userprofile-detail-section .userDetails .userImage {
+        width: 100px;
+    }
+
+    .userprofile-detail-section .userImage .user {
+        width: 96px;
+        height: 96px;
+    }
+
+    .userprofile-detail-section .userDetails .userInfo {
+        width: calc(100% - 100px);
+    }
+
+    .userprofile-detail-section .companyDetails {
+        padding-left: 124px;
+    }
+}
+
+@media (max-width: 767px) {
+    .datepicker-formGrid .to-text {
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    .add_profile-container .add_profile-inner .formGrid .formGrid-inner {
+        width: 100%;
+    }
+
+    .userprofile-detail-section .userDetails .userImage {
+        width: 70px;
+    }
+
+    .profileBadge .MuiBadge-badge {
+        bottom: -18px;
+    }
+
+    .userprofile-detail-section .userImage .user {
+        width: 66px;
+        height: 66px;
+    }
+
+    .userprofile-detail-section .userDetails .userInfo {
+        width: calc(100% - 70px);
+        display: block;
+    }
+
+    .userprofile-detail-section .userDetails .userInfo h4 {
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .userprofile-detail-section .companyDetails {
+        padding-left: 0;
+        margin-top: 12px;
+    }
+
+    .userprofile-detail-section .userDetails .userInfo p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .userprofile-detail-section .companyDetails .formGrid label {
+        font-size: 12px;
+    }
+
+    .userprofile-detail-section .companyDetails .formGrid p {
+        font-size: 14px;
+    }
+
+    .approval_modal .MuiDialog-paper {
+        min-width: unset;
+        max-width: unset;
+        width: 100%;
+    }
+
+    .certificateCard {
+        display: block;
+    }
+
+    .certificateCard .certificateImg {
+        margin-right: unset;
+        margin-bottom: 8px;
+    }
+
+    .formGrid .formGrid-inner {
+        width: 100%;
+    }
+
+    .projects .projectsList .projectListItem {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .projects-sidebar {
+        padding: 15px;
+    }
+
+    .projects-sidebar ul {
+        max-height: unset;
+        min-height: unset;
+    }
+
+    .editProject-container,
+    .profile-inner {
+        padding: 40px 15px 15px;
+    }
+
+    .category-technology {
+        margin-bottom: 8px;
+    }
+
+    .my_profile-container .userprofile-detail-section {
+        padding-bottom: 20px;
+    }
+
+    .categoryList .categoryList-item {
+        padding: 4px 10px;
+    }
+
+    .categoryList .categoryList-item span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .stepper-container .stepLabel .MuiStepLabel-label{
+        display: none;
+    } */
+    .userprofile-detail-section .companyDetails .formGrid {
+        width: auto;
+        padding-right: 40px;
+    }
+
+    .add_profile-container {
+        margin-top: -380px;
+    }
+
+    .profile-top-section {
+        padding-top: 15px;
+    }
+
+    .my_profile-container {
+        margin-top: -460px;
+    }
+
+    .approval-tag {
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+
+    .approval-tag::before {
+        top: 15px;
+    }
+
+    .profileInnerApproval-tag {
+        font-size: 9px !important;
+        right: 12px;
+        line-height: 16px !important;
+    }
+
+    .profileInnerApproval-tag.approval-tag::before {
+        top: 9px;
+    }
+
+    .userprofile-detail-section .userDetails .userInfo h4 {
+        font-size: 18px;
+    }
+
+    .editProject-container,
+    .profile-inner {
+        padding: 25px 15px 15px;
+        min-height: 370px;
+    }
+
+    .loder-main-rout {
+        position: relative;
+        min-height: 370px;
+    }
+
+    .editProject-container,
+    .profile-inner {
+        min-height: unset !important;
+    }
+
+    .my_profile-inner .formGrid .formControl .profile_avatar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .my_profile-inner .formGrid .formControl .profile_avatar img {
+        width: 12px;
+    }
+
+    .my_profile-inner .formGrid .formControl .value {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .add_profile-form .title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .form-loader-div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .form-loader-div .form-loader {
+        width: 60% !important;
+    }
+
+    .profile-top-inner {
+        padding-top: 10px;
+    }
+}
+
+/*----- phone input style --------------*/
+.phoneInputField.react-tel-input {
+    margin-top: 14px;
+    font-family: "Gordita" !important;
+}
+
+.phoneInputField.react-tel-input .special-label {
+    top: -16px;
+    left: 0;
+    background: none !important;
+    font-weight: 500;
+    color: #0e101a;
+    font-size: 9px;
+    opacity: 0.72;
+    font-family: "Gordita" !important;
+}
+
+.phoneInputField.react-tel-input .form-control {
+    padding: 14px 14px 14px 58px;
+    border: 1px solid #c8cfd5 !important;
+    border-radius: 8px;
+    font-size: 16px;
+    height: 48px;
+    width: 100%;
+    /* background: none; */
+}
+
+.formControl.selectCategory .inputField {
+    border: unset;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.phoneInputField.react-tel-input .form-control:hover {
+    border: 1px solid #c8cfd5 !important;
+}
+
+.phoneInputField.react-tel-input .form-control:focus {
+    box-shadow: unset !important;
+}
+
+/*----- phone input style end--------------*/
+
+.rejected-tag {
+    font-family: "Gordita";
+    position: relative;
+    background: rgba(255, 88, 59, 0.24);
+    border-radius: 50px;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    text-align: center;
+    color: #ffffff;
+    text-transform: unset !important;
+    padding: 7px 12px 5px 30px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rejected-tag::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 8px;
+    height: 8px;
+    background: #ff3b3b;
+    border-radius: 100%;
+}
+
+.rejected-tag img {
+    width: auto;
+    padding-left: 7px;
+}
+
+.end-date-form-inner .formControl {
+    margin-top: 17px;
+}
+
+.form-loader-div {
+    text-align: center;
+    padding: 5%;
+}
+
+.form-loader-div .form-loader {
+    width: 20%;
+    height: 100%;
+}
+
+.main-client-content
+    .breadcrumb-div
+    .breadcrumb-nav
+    .MuiBreadcrumbs-li:last-child
+    p {
+    color: #6a8caa;
+    font-weight: 500;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: #c8cfd5 !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root:hover
+    .MuiOutlinedInput-notchedOutline {
+    border-color: #c8cfd5 !important;
+}
+
+.custom-bread-crumb .breadcrumb-div .breadcrumb-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.custom-bread-crumb .breadcrumb-div .breadcrumb-nav {
+    color: #fff;
+}
+
+.main-client-content
+    .custom-bread-crumb
+    .breadcrumb-div
+    .breadcrumb-nav
+    .MuiBreadcrumbs-li:last-child
+    p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.amount-box .amount-duration {
+    width: 44px !important;
+    height: 100%;
+    max-height: unset;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #f6f8fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+}
+.amount-box .amount-duration img {
+    width: auto;
+}

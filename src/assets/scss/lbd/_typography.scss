@@ -1,0 +1,275 @@
+/* font face */
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-BoldItalic.eot');
+    src: url('../../fonts/gordita/Gordita-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-BoldItalic.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-BoldItalic.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-BoldItalic.svg#Gordita-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-Black.eot');
+    src: url('../../fonts/gordita/Gordita-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-Black.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-Black.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-Black.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-Black.svg#Gordita-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-BlackItalic.eot');
+    src: url('../../fonts/gordita/Gordita-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-BlackItalic.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-BlackItalic.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-BlackItalic.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-BlackItalic.svg#Gordita-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-LightItalic.eot');
+    src: url('../../fonts/gordita/Gordita-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-LightItalic.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-LightItalic.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-LightItalic.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-LightItalic.svg#Gordita-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-Light.eot');
+    src: url('../../fonts/gordita/Gordita-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-Light.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-Light.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-Light.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-Light.svg#Gordita-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-Bold.eot');
+    src: url('../../fonts/gordita/Gordita-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-Bold.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-Bold.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-Bold.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-Bold.svg#Gordita-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-Medium.eot');
+    src: url('../../fonts/gordita/Gordita-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-Medium.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-Medium.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-Medium.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-Medium.svg#Gordita-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-MediumItalic.eot');
+    src: url('../../fonts/gordita/Gordita-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-MediumItalic.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-MediumItalic.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-MediumItalic.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-MediumItalic.svg#Gordita-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-RegularItalic.eot');
+    src: url('../../fonts/gordita/Gordita-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-RegularItalic.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-RegularItalic.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-RegularItalic.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-RegularItalic.svg#Gordita-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-Thin.eot');
+    src: url('../../fonts/gordita/Gordita-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-Thin.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-Thin.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-Thin.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-Thin.svg#Gordita-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-Regular.eot');
+    src: url('../../fonts/gordita/Gordita-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-Regular.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-Regular.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-Regular.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-Regular.svg#Gordita-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/gordita/Gordita-ThinItalic.eot');
+    src: url('../../fonts/gordita/Gordita-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-ThinItalic.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-ThinItalic.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-ThinItalic.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-ThinItalic.svg#Gordita-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita Ultra';
+    src: url('../../fonts/gordita/Gordita-UltraItalic.eot');
+    src: url('../../fonts/gordita/Gordita-UltraItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-UltraItalic.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-UltraItalic.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-UltraItalic.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-UltraItalic.svg#Gordita-UltraItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita Ultra';
+    src: url('../../fonts/gordita/Gordita-Ultra.eot');
+    src: url('../../fonts/gordita/Gordita-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/gordita/Gordita-Ultra.woff2') format('woff2'),
+        url('../../fonts/gordita/Gordita-Ultra.woff') format('woff'),
+        url('../../fonts/gordita/Gordita-Ultra.ttf') format('truetype'),
+        url('../../fonts/gordita/Gordita-Ultra.svg#Gordita-Ultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*           Font Smoothing      */
+
+body,
+h1, .h1, 
+h2, .h2, 
+h3, .h3, 
+h4, .h4, 
+h5, .h5, 
+h6, .h6, 
+p, 
+.navbar, 
+.brand, 
+.btn-simple,
+.alert, 
+a, 
+.td-name, 
+td,
+button.close{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Gordita";
+    font-weight: $font-weight-normal;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4{
+    font-weight: $font-weight-light;
+    margin: $margin-large-vertical 0 $margin-base-vertical;
+}
+
+h1, .h1 {
+    font-size: $font-size-h1;
+}
+h2, .h2{
+    font-size: $font-size-h2;
+}
+h3, .h3{
+    font-size: $font-size-h3;
+    margin: 20px 0 10px;
+}
+h4, .h4{
+    font-size: $font-size-h4;
+    line-height: 30px;
+}
+h5, .h5 {
+    font-size: $font-size-h5;
+    margin-bottom: 15px;
+}
+h6, .h6{
+    font-size: $font-size-h6;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+}
+p{
+    font-size: $font-paragraph;
+    line-height: $line-height-general;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    color: $dark-gray;
+    font-weight: $font-weight-light;
+    line-height: $line-height-general;
+}
+
+h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
+    font-size: 60%;
+}
+
+h1 .subtitle{
+    display: block;
+    margin: 0 0 $margin-large-vertical;   
+}
+
+.text-muted{
+    color: #9A9A9A;
+}
+.text-primary, .text-primary:hover{
+    color: #1D62F0 !important;
+}
+.text-info, .text-info:hover{
+    color: $info-color !important;
+}
+.text-success, .text-success:hover{
+    color: $success-color !important;
+}
+.text-warning, .text-warning:hover{
+    color: $warning-color !important;
+}
+.text-danger, .text-danger:hover{
+    color: $danger-color !important;
+}
+

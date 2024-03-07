@@ -1,0 +1,449 @@
+/*--------------- header  ---------------------*/
+.header {
+    border: none;
+    font-size: 14px;
+    border-radius: 0;
+    min-height: 50px;
+    background-color: #ffffff !important;
+    box-shadow: 0px 4px 28px rgb(22 75 122 / 8%) !important;
+}
+
+.header .header-inner {
+    min-height: 80px;
+}
+
+.header_menu {
+    color: #164b7aa3 !important;
+    padding: 5px 20px;
+    position: relative;
+    display: inline-flex;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.header_icon-Btn {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 8px !important;
+    position: relative;
+}
+
+.header-chatBtn .MuiBadge-badge {
+    font-size: 10px;
+    top: 4px;
+    right: 4px;
+    background-color: #548CA8;
+}
+
+.header_icon-Btn:hover {
+    background-color: unset !important;
+}
+
+.header_icon {
+    width: 36px !important;
+    height: 36px !important;
+    background: #548ca814;
+    border: 2px solid #548ca80a;
+}
+
+.header_icon img {
+    object-fit: unset !important;
+    height: 16px;
+}
+
+.header_icon.user-profile-img {
+    border: 2px solid #548ca8;
+}
+
+.header_icon.user-profile-img img {
+    object-fit: cover !important;
+    height: 100%;
+}
+
+.header_menu::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #548ca8;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.header_menu:hover {
+    color: #548ca8 !important;
+}
+
+.header_menu.active::before,
+.header_menu:hover::before,
+.header_menu:focus::before {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.header_icon-Btn .dot {
+    position: absolute;
+    background-color: #ff5e7b;
+    text-align: center;
+    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    top: 0px;
+    right: 0px;
+    border: 2px solid #fff;
+}
+
+#menu-appbar .MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    box-shadow: 0px 8px 24px #164b7a1c !important;
+    border-radius: 8px !important;
+}
+
+#menu-appbar ul,
+#menu-appbar .appbar-menuItem,
+#menu-appbar .appbar-menuItem p {
+    color: #6a8caad6 !important;
+    font-family: "Gordita" !important;
+}
+
+#menu-appbar ul li .logoutLink {
+    color: #ff5e7b !important;
+}
+
+#menu-appbar .MuiTypography-root {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 20px;
+    font-family: "Gordita" !important;
+}
+
+#menu-appbar .MuiButtonBase-root-MuiMenuItem-root {
+    position: relative;
+    font-family: "Gordita" !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#menu-appbar ul li::before {
+    content: " ";
+    background-color: #ff5e7b;
+    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    top: 0px;
+    left: 0px;
+    margin-right: 4px;
+    opacity: 0;
+}
+
+#menu-appbar ul li:hover .MuiTypography-root {
+    /* font-weight: 500 !important; */
+    color: #6a8caa;
+    font-size: 14px;
+    font-family: "Gordita" !important;
+}
+
+#menu-appbar ul li:hover::before {
+    opacity: 1;
+}
+
+.menu-appbar {
+    color: #476072 !important;
+}
+
+.primaryButton.login-btn {
+    height: 40px;
+    min-width: 120px !important;
+    color: #fff;
+}
+
+.primaryButton.login-btn.requestAgencyBtn {
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 10px 12px 12px !important;
+}
+
+.appbar-menu .MuiMenuItem-root {
+    min-height: auto !important;
+}
+
+/* header btn css */
+
+.heading-sign-btn .secondaryButton {
+    height: 40px;
+    min-width: 120px !important;
+    color: #548ca8;
+    background-color: #fff !important;
+    border-radius: 8px !important;
+    padding: 11px 12px !important;
+    font-size: 14px !important;
+    font-family: "Gordita" !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+    border: 1px solid #548ca8;
+    margin-right: 16px;
+}
+
+.heading-sign-btn .secondaryButton:hover {
+    color: #fff;
+    background-color: #548ca8 !important;
+}
+
+.how-it-work-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-work-menu .work-menu-link {
+    color: #164b7aa3 !important;
+    position: relative;
+    padding-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none !important;
+    cursor: pointer;
+    font-family: "Gordita" !important;
+    font-weight: 400;
+}
+
+.how-it-work-menu .work-menu-link img {
+    width: 8px;
+    height: 6px;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+.menu-listing-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 8px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.menu-listing-box .left-menu-box {
+    border: 1px solid #f5f8fa;
+    border-radius: 12px;
+    width: 122px;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.menu-listing-box .left-menu-box .menu-box-item {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-listing-box .left-menu-box .menu-box-item img {
+    width: auto;
+}
+
+.menu-listing-box .left-menu-box .menu-box-item span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #476072;
+    display: block;
+    padding-top: 8px;
+}
+
+.menu-listing-box .left-menu-box:hover .menu-box-item span {
+    color: #131a20;
+}
+
+/**-------------------------------------------------------------------**/
+/**------------------- responsive style ------------**/
+/**-------------------------------------------------------------------**/
+@media only screen and (max-width: 1120px) and (min-width: 992px) {
+    .header_menu {
+        padding: 5px 10px !important;
+        font-size: 13px !important;
+    }
+
+    .primaryButton.login-btn {
+        font-size: 12px !important;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 899px) {
+    .header .brand-logo img {
+        width: 140px;
+    }
+
+    .menu-appbar {
+        background-color: #fff !important;
+    }
+
+    .menu-appbar:focus,
+    .menu-appbar:hover {
+        background-color: #fff !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header .brand-logo img {
+        width: 129px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .brand-logo img {
+        width: 90px;
+    }
+
+    .heading-sign-btn .secondaryButton:hover {
+        color: #548CA8 !important;
+        background-color: unset !important;
+    }
+
+    /* .header .header-inner {
+        flex-flow: row wrap;
+    } */
+
+    .primaryButton.login-btn.requestAgencyBtn {
+        order: 2;
+        width: 100%;
+        margin: 8px 0px;
+        padding: 8px 12px 12px !important;
+    }
+
+    .header_icon-Btn {
+        margin: 0 4px !important;
+    }
+
+    .header_icon-Btn.profileBtn {
+        margin-right: 0px !important;
+    }
+}
+
+/*--------------- header end---------------------*/
+
+/*----------- Header Active menu-------------*/
+.header_menu.active {
+    font-weight: 700;
+    color: #476072 !important;
+}
+
+@media (max-width: 480px) {
+    header .header-client-inner {
+        flex-wrap: wrap;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+
+    .dashboard-main-client-content {
+        padding-top: 103px !important;
+    }
+
+    .main-client-content {
+        padding-top: 105px !important;
+    }
+
+    .MuiMenu-root .MuiPaper-root ul li p {
+        color: #548ca8 !important;
+    }
+
+}
+
+@media(max-width: 899px) {
+    .heading-sign-btn .sign-btn-home {
+        display: none;
+    }
+
+    .MuiMenu-root .MuiPaper-root ul li p {
+        color: #548ca8 !important;
+    }
+}
+
+/*----------- Header Active menu-------------*/
+
+.responsive-menu .how-it-works-responsive {
+    box-shadow: none !important;
+}
+
+.responsive-menu .how-it-works-responsive .MuiAccordionDetails-root {
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 0;
+}
+
+.responsive-menu .how-it-works-responsive .MuiAccordionDetails-root a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #548ca8 !important;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Gordita" !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+.responsive-menu .MuiButtonBase-root a {
+    margin: 0;
+    padding: 0 6px;
+    font-weight: 500;
+    font-family: "Gordita" !important;
+}
+.responsive-menu {
+    font-family: "Gordita" !important;
+}
+.responsive-menu .MuiAccordionSummary-expandIconWrapper {
+    color: #548ca8 !important;
+    font-family: "Gordita" !important;
+}
+.responsive-menu .MuiAccordionSummary-content p {
+    color: rgb(22 75 122 / 64%) !important;
+    font-family: "Gordita" !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.00938em;
+    text-align: center;
+}
+.responsive-menu .MuiMenu-list {
+    padding: 8px 20px 8px 12px;
+}
+.responsive-menu .MuiAccordionSummary-content {
+    margin: 0 !important;
+    font-family: "Gordita" !important;
+}
+.responsive-menu .MuiButtonBase-root p {
+    font-weight: 500;
+    color: #548ca8 !important;
+    font-size: 14px;
+    line-height: 20px;
+}
+.responsive-menu .MuiButtonBase-root {
+    padding: 0 8px;
+    min-height: 40px !important;
+}
+.responsive-menu .how-it-works-responsive .MuiAccordionDetails-root a img {
+    width: 20px;
+    margin-right: 10px;
+    font-family: "Gordita" !important;
+}
+
+.responsive-menu .MuiAccordionSummary-content {
+    margin: 0;
+    font-family: "Gordita" !important;
+}

@@ -1,0 +1,55 @@
+.terms-condition-section .privacy-policy-inner {
+    background-image: url(../img/term-condition-banner.png) !important;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction .term-condition-list li {
+    padding: 0;
+    /* display: unset; */
+    align-items: flex-start;
+    color: #131A20;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction .term-condition-list li span {
+    padding-right: 10px;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction .term-condition-list li:before {
+    content: none !important;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction h6 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #131A20;
+    margin: 0;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction .provision-list {
+    padding-bottom: 0;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction .provision-list li {
+    color: #131A20;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction p {
+    color: #131A20;
+}
+
+.term-condition .introduction-inner .introduction-main-content .introduction ul li:before {
+    background-color: #131A20;
+}
+
+@media(max-width: 767px) {
+    .privacy-introduction .introduction-inner .introduction-main-content {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+.bg-light {
+    background-color: #ffffff1c !important;
+}
+
+.bg-dark {
+    background-color: #0000001c !important;
+}
+
+.m-12-16 {
+    margin: 12px 16px 12px 16px !important;
+}
+
+.m-b-12 {
+    margin-bottom: 12px !important;
+}
+
+.m-r-8 {
+    margin-right: 8px !important;
+}
+.m-t-24 {
+    margin-top: 24px !important;
+}
+
+.m-auto {
+    margin: auto;
+}
+.min-w-unset {
+    min-width: unset !important;
+}
+
+.transform-scale-1 {
+    transform: scale(1) !important;
+}
+
+.positionCenter {
+    align-items: center;
+}
+
+.pointerClass{
+    pointer-events: none;
+}
